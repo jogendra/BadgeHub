@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0664A783622489C162D2CC303CE278F4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6285AF6AE411BA99E2862E1EDF398CE7 /* ReplaceMe.swift */; };
+		0664A783622489C162D2CC303CE278F4 /* BedgeNotificHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6285AF6AE411BA99E2862E1EDF398CE7 /* BedgeNotificHub.swift */; };
 		3CE35ED7C66B7A62E3B6380821AA7A6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		3DCF97A0B9AE837A1DFC6970BBF6A74B /* Pods-BedgeNotificHub_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5141B4152261ACAC63591A1DC02A481 /* Pods-BedgeNotificHub_Tests-dummy.m */; };
 		54739EE0514D71C38897546D4F1BC8EF /* BedgeNotificHub-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C58BA820D9EE52444E645AE7006E6C29 /* BedgeNotificHub-dummy.m */; };
@@ -49,7 +49,7 @@
 		476FFB85FA1443280E47C0E71F9D5221 /* Pods_BedgeNotificHub_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BedgeNotificHub_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D1CCA4F197A644E4C4E7E89065DA6E2 /* Pods-BedgeNotificHub_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BedgeNotificHub_Example.modulemap"; sourceTree = "<group>"; };
 		60ED19A3BC78CEC5499D0BA821D5DA6C /* Pods-BedgeNotificHub_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BedgeNotificHub_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6285AF6AE411BA99E2862E1EDF398CE7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BedgeNotificHub/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		6285AF6AE411BA99E2862E1EDF398CE7 /* BedgeNotificHub.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BedgeNotificHub.swift; path = BedgeNotificHub/Classes/BedgeNotificHub.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6819413CD7E852DC5E4FC0D0E340FEAA /* Pods-BedgeNotificHub_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BedgeNotificHub_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6C309B2EC1F57F69609EEB2471185D8A /* Pods_BedgeNotificHub_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BedgeNotificHub_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -219,7 +219,7 @@
 		DF60716A5EC64CDE31452E56C48EA576 /* BedgeNotificHub */ = {
 			isa = PBXGroup;
 			children = (
-				6285AF6AE411BA99E2862E1EDF398CE7 /* ReplaceMe.swift */,
+				6285AF6AE411BA99E2862E1EDF398CE7 /* BedgeNotificHub.swift */,
 				1D5E146C6DB58512E285B945E8574FA4 /* Pod */,
 				30B1A5846556CFCD86F3459D91E32374 /* Support Files */,
 			);
@@ -357,7 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54739EE0514D71C38897546D4F1BC8EF /* BedgeNotificHub-dummy.m in Sources */,
-				0664A783622489C162D2CC303CE278F4 /* ReplaceMe.swift in Sources */,
+				0664A783622489C162D2CC303CE278F4 /* BedgeNotificHub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
