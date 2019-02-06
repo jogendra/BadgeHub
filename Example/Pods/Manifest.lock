@@ -1,0 +1,16 @@
+PODS:
+  - BedgeNotificHub (0.1.0)
+
+DEPENDENCIES:
+  - BedgeNotificHub (from `../`)
+
+EXTERNAL SOURCES:
+  BedgeNotificHub:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BedgeNotificHub: b1d3d70b5c819b2f1fbb187b6f5f7c7737695ea1
+
+PODFILE CHECKSUM: 78c6ea5461b575d8e925ff6ca02993824eaf3a0b
+
+COCOAPODS: 1.5.3

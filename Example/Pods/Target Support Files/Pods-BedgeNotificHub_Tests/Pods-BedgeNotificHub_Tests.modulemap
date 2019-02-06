@@ -1,0 +1,6 @@
+framework module Pods_BedgeNotificHub_Tests {
+  umbrella header "Pods-BedgeNotificHub_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

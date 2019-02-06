@@ -1,0 +1,6 @@
+framework module Pods_BedgeNotificHub_Example {
+  umbrella header "Pods-BedgeNotificHub_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

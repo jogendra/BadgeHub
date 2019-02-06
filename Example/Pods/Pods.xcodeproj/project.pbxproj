@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0664A783622489C162D2CC303CE278F4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6285AF6AE411BA99E2862E1EDF398CE7 /* ReplaceMe.swift */; };
+		3CE35ED7C66B7A62E3B6380821AA7A6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3DCF97A0B9AE837A1DFC6970BBF6A74B /* Pods-BedgeNotificHub_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5141B4152261ACAC63591A1DC02A481 /* Pods-BedgeNotificHub_Tests-dummy.m */; };
+		54739EE0514D71C38897546D4F1BC8EF /* BedgeNotificHub-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C58BA820D9EE52444E645AE7006E6C29 /* BedgeNotificHub-dummy.m */; };
+		BB6DFD3340A45433F241B72DE2EEC810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BB94E8A9C58BDDA5D83173419E7FC1E3 /* Pods-BedgeNotificHub_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8D88C2A397AF2F8A6B91517264F9D3 /* Pods-BedgeNotificHub_Example-dummy.m */; };
+		D95F54DEFA76B9FA53F6FFA2C9BE6098 /* BedgeNotificHub-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2192185E817BF5A9D5E50DCE8B34185 /* BedgeNotificHub-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E246B80193A8C306CA1215D9E4EF83D2 /* Pods-BedgeNotificHub_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFAD976A50F799600FA520F9F6DBA38 /* Pods-BedgeNotificHub_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4740F46D3B6E820E96366438F8B93C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FDB2018B02952C613327986622B1FE87 /* Pods-BedgeNotificHub_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AA7C467E515F704060F301CB8447374 /* Pods-BedgeNotificHub_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45B6F6404A386C9C6FE01B63A3D88B13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 735DDFA881B29FD0B2A489C4E8B54D39;
+			remoteInfo = BedgeNotificHub;
+		};
+		D1745E94A6C3279F8F69D57C4336BC9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD3575DE7F756C24D51FA07122BDB272;
+			remoteInfo = "Pods-BedgeNotificHub_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048A8A5A7A512F4F73CB61B382D3038A /* BedgeNotificHub-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BedgeNotificHub-prefix.pch"; sourceTree = "<group>"; };
+		1FFD23EC685A686E1F5BC44510CCC15F /* BedgeNotificHub.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = BedgeNotificHub.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		204BF2F4ED4137759D4C5633B79CCDCF /* Pods-BedgeNotificHub_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BedgeNotificHub_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29AAC4277D3ABFE3DF83F9308DC7B6FD /* BedgeNotificHub.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BedgeNotificHub.modulemap; sourceTree = "<group>"; };
+		2A8D88C2A397AF2F8A6B91517264F9D3 /* Pods-BedgeNotificHub_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BedgeNotificHub_Example-dummy.m"; sourceTree = "<group>"; };
+		2FFAD976A50F799600FA520F9F6DBA38 /* Pods-BedgeNotificHub_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BedgeNotificHub_Tests-umbrella.h"; sourceTree = "<group>"; };
+		363765750D1B3D2154E49453EC0A2988 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B4E9E7067646044D1260E59571F0C53 /* Pods-BedgeNotificHub_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BedgeNotificHub_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4753B02E9BBDA7679D5BEB3AEE3BCC28 /* Pods-BedgeNotificHub_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BedgeNotificHub_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		476FFB85FA1443280E47C0E71F9D5221 /* Pods_BedgeNotificHub_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BedgeNotificHub_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1CCA4F197A644E4C4E7E89065DA6E2 /* Pods-BedgeNotificHub_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BedgeNotificHub_Example.modulemap"; sourceTree = "<group>"; };
+		60ED19A3BC78CEC5499D0BA821D5DA6C /* Pods-BedgeNotificHub_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BedgeNotificHub_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6285AF6AE411BA99E2862E1EDF398CE7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BedgeNotificHub/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6819413CD7E852DC5E4FC0D0E340FEAA /* Pods-BedgeNotificHub_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BedgeNotificHub_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6C309B2EC1F57F69609EEB2471185D8A /* Pods_BedgeNotificHub_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BedgeNotificHub_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA7C467E515F704060F301CB8447374 /* Pods-BedgeNotificHub_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BedgeNotificHub_Example-umbrella.h"; sourceTree = "<group>"; };
+		8577DFE0E115EA8F178D6EBD6A201402 /* Pods-BedgeNotificHub_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BedgeNotificHub_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AA5D5C234D7C45A9FFC1BC93F86D0F7 /* Pods-BedgeNotificHub_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BedgeNotificHub_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A0DE5E296A3BD2C19AFF899A70E2EBCC /* BedgeNotificHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BedgeNotificHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A813CDB5685915B650D4A3331FF722C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AA2685454BDAD5504D36220BCAE5BC5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5DB67A55A0101275D0E8C5D2EE2F40 /* Pods-BedgeNotificHub_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BedgeNotificHub_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5141B4152261ACAC63591A1DC02A481 /* Pods-BedgeNotificHub_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BedgeNotificHub_Tests-dummy.m"; sourceTree = "<group>"; };
+		BCCDF091B34DCDA4F3F59F4A9B5F715A /* Pods-BedgeNotificHub_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BedgeNotificHub_Tests.modulemap"; sourceTree = "<group>"; };
+		C1E604E770A5321F8F52CCC77F047FAA /* Pods-BedgeNotificHub_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BedgeNotificHub_Example-resources.sh"; sourceTree = "<group>"; };
+		C2F7FE6686346A6F8729096BE1AD4F2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C58BA820D9EE52444E645AE7006E6C29 /* BedgeNotificHub-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BedgeNotificHub-dummy.m"; sourceTree = "<group>"; };
+		D4BBB60189D785DD6BFC8F89579AEF55 /* Pods-BedgeNotificHub_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BedgeNotificHub_Tests-resources.sh"; sourceTree = "<group>"; };
+		DEC4C832D60A25A7021D1F98EE11C211 /* BedgeNotificHub.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BedgeNotificHub.xcconfig; sourceTree = "<group>"; };
+		EADB4F90E2DC220955BE913839E79050 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2192185E817BF5A9D5E50DCE8B34185 /* BedgeNotificHub-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BedgeNotificHub-umbrella.h"; sourceTree = "<group>"; };
+		F7C3782D5A235F9453EB1B68F4A6325B /* Pods-BedgeNotificHub_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BedgeNotificHub_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F9D247C6E7F7CA8A9D30E8FDA2DC2335 /* Pods-BedgeNotificHub_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BedgeNotificHub_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10BAC44CA5670D28B9D83243C866C3AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6DFD3340A45433F241B72DE2EEC810 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386B8D644F2CE39FDE97341408810F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4740F46D3B6E820E96366438F8B93C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CA48E39A2BD3AC80D8FB0A56AA5E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE35ED7C66B7A62E3B6380821AA7A6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D5E146C6DB58512E285B945E8574FA4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1FFD23EC685A686E1F5BC44510CCC15F /* BedgeNotificHub.podspec */,
+				C2F7FE6686346A6F8729096BE1AD4F2E /* LICENSE */,
+				A813CDB5685915B650D4A3331FF722C7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		30B1A5846556CFCD86F3459D91E32374 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29AAC4277D3ABFE3DF83F9308DC7B6FD /* BedgeNotificHub.modulemap */,
+				DEC4C832D60A25A7021D1F98EE11C211 /* BedgeNotificHub.xcconfig */,
+				C58BA820D9EE52444E645AE7006E6C29 /* BedgeNotificHub-dummy.m */,
+				048A8A5A7A512F4F73CB61B382D3038A /* BedgeNotificHub-prefix.pch */,
+				F2192185E817BF5A9D5E50DCE8B34185 /* BedgeNotificHub-umbrella.h */,
+				EADB4F90E2DC220955BE913839E79050 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BedgeNotificHub";
+			sourceTree = "<group>";
+		};
+		311D72AD9A44A54C85F224516F677D54 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				969AE188609A1F31B206D44DCE352DAB /* Pods-BedgeNotificHub_Example */,
+				5661102777C2E8770EF585CFF0240D61 /* Pods-BedgeNotificHub_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		418B9F22AF9958A9163E7FB27B70276A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF60716A5EC64CDE31452E56C48EA576 /* BedgeNotificHub */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5661102777C2E8770EF585CFF0240D61 /* Pods-BedgeNotificHub_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AA2685454BDAD5504D36220BCAE5BC5F /* Info.plist */,
+				BCCDF091B34DCDA4F3F59F4A9B5F715A /* Pods-BedgeNotificHub_Tests.modulemap */,
+				204BF2F4ED4137759D4C5633B79CCDCF /* Pods-BedgeNotificHub_Tests-acknowledgements.markdown */,
+				60ED19A3BC78CEC5499D0BA821D5DA6C /* Pods-BedgeNotificHub_Tests-acknowledgements.plist */,
+				B5141B4152261ACAC63591A1DC02A481 /* Pods-BedgeNotificHub_Tests-dummy.m */,
+				F9D247C6E7F7CA8A9D30E8FDA2DC2335 /* Pods-BedgeNotificHub_Tests-frameworks.sh */,
+				D4BBB60189D785DD6BFC8F89579AEF55 /* Pods-BedgeNotificHub_Tests-resources.sh */,
+				2FFAD976A50F799600FA520F9F6DBA38 /* Pods-BedgeNotificHub_Tests-umbrella.h */,
+				AF5DB67A55A0101275D0E8C5D2EE2F40 /* Pods-BedgeNotificHub_Tests.debug.xcconfig */,
+				F7C3782D5A235F9453EB1B68F4A6325B /* Pods-BedgeNotificHub_Tests.release.xcconfig */,
+			);
+			name = "Pods-BedgeNotificHub_Tests";
+			path = "Target Support Files/Pods-BedgeNotificHub_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				418B9F22AF9958A9163E7FB27B70276A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DEE38A35418FF150895B900B488AD8A8 /* Products */,
+				311D72AD9A44A54C85F224516F677D54 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		969AE188609A1F31B206D44DCE352DAB /* Pods-BedgeNotificHub_Example */ = {
+			isa = PBXGroup;
+			children = (
+				363765750D1B3D2154E49453EC0A2988 /* Info.plist */,
+				5D1CCA4F197A644E4C4E7E89065DA6E2 /* Pods-BedgeNotificHub_Example.modulemap */,
+				9AA5D5C234D7C45A9FFC1BC93F86D0F7 /* Pods-BedgeNotificHub_Example-acknowledgements.markdown */,
+				4753B02E9BBDA7679D5BEB3AEE3BCC28 /* Pods-BedgeNotificHub_Example-acknowledgements.plist */,
+				2A8D88C2A397AF2F8A6B91517264F9D3 /* Pods-BedgeNotificHub_Example-dummy.m */,
+				8577DFE0E115EA8F178D6EBD6A201402 /* Pods-BedgeNotificHub_Example-frameworks.sh */,
+				C1E604E770A5321F8F52CCC77F047FAA /* Pods-BedgeNotificHub_Example-resources.sh */,
+				7AA7C467E515F704060F301CB8447374 /* Pods-BedgeNotificHub_Example-umbrella.h */,
+				6819413CD7E852DC5E4FC0D0E340FEAA /* Pods-BedgeNotificHub_Example.debug.xcconfig */,
+				3B4E9E7067646044D1260E59571F0C53 /* Pods-BedgeNotificHub_Example.release.xcconfig */,
+			);
+			name = "Pods-BedgeNotificHub_Example";
+			path = "Target Support Files/Pods-BedgeNotificHub_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DEE38A35418FF150895B900B488AD8A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0DE5E296A3BD2C19AFF899A70E2EBCC /* BedgeNotificHub.framework */,
+				476FFB85FA1443280E47C0E71F9D5221 /* Pods_BedgeNotificHub_Example.framework */,
+				6C309B2EC1F57F69609EEB2471185D8A /* Pods_BedgeNotificHub_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF60716A5EC64CDE31452E56C48EA576 /* BedgeNotificHub */ = {
+			isa = PBXGroup;
+			children = (
+				6285AF6AE411BA99E2862E1EDF398CE7 /* ReplaceMe.swift */,
+				1D5E146C6DB58512E285B945E8574FA4 /* Pod */,
+				30B1A5846556CFCD86F3459D91E32374 /* Support Files */,
+			);
+			name = BedgeNotificHub;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		58D48539B515A0B6DDBE715D631DE419 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB2018B02952C613327986622B1FE87 /* Pods-BedgeNotificHub_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80328833B220D569D517E4058257D2F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E246B80193A8C306CA1215D9E4EF83D2 /* Pods-BedgeNotificHub_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43C1BCD0CE8A8855AAD1604FFC7E848 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95F54DEFA76B9FA53F6FFA2C9BE6098 /* BedgeNotificHub-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1EE44EA63444D353B84C2C2CD1CBF5F5 /* Pods-BedgeNotificHub_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E23CC4510616A729B96F54310938AB8 /* Build configuration list for PBXNativeTarget "Pods-BedgeNotificHub_Tests" */;
+			buildPhases = (
+				D69B81A40A2F57A4D870099FF7126F01 /* Sources */,
+				10BAC44CA5670D28B9D83243C866C3AF /* Frameworks */,
+				80328833B220D569D517E4058257D2F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5920F80FC8C60447E94935406DB0168E /* PBXTargetDependency */,
+			);
+			name = "Pods-BedgeNotificHub_Tests";
+			productName = "Pods-BedgeNotificHub_Tests";
+			productReference = 6C309B2EC1F57F69609EEB2471185D8A /* Pods_BedgeNotificHub_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		735DDFA881B29FD0B2A489C4E8B54D39 /* BedgeNotificHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63534452D7B8C04CCEECAF96E43E105B /* Build configuration list for PBXNativeTarget "BedgeNotificHub" */;
+			buildPhases = (
+				5169CCCB942A98FC3AA43688E1D99CFA /* Sources */,
+				386B8D644F2CE39FDE97341408810F2E /* Frameworks */,
+				D43C1BCD0CE8A8855AAD1604FFC7E848 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BedgeNotificHub;
+			productName = BedgeNotificHub;
+			productReference = A0DE5E296A3BD2C19AFF899A70E2EBCC /* BedgeNotificHub.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD3575DE7F756C24D51FA07122BDB272 /* Pods-BedgeNotificHub_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B97B29425F4570E0B6D2823E5D3C05D /* Build configuration list for PBXNativeTarget "Pods-BedgeNotificHub_Example" */;
+			buildPhases = (
+				18769A15BC0E3484E3C59A17EAFEE3E7 /* Sources */,
+				68CA48E39A2BD3AC80D8FB0A56AA5E3C /* Frameworks */,
+				58D48539B515A0B6DDBE715D631DE419 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4C40998085081D0C61D9F22924E6ECE /* PBXTargetDependency */,
+			);
+			name = "Pods-BedgeNotificHub_Example";
+			productName = "Pods-BedgeNotificHub_Example";
+			productReference = 476FFB85FA1443280E47C0E71F9D5221 /* Pods_BedgeNotificHub_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					735DDFA881B29FD0B2A489C4E8B54D39 = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DEE38A35418FF150895B900B488AD8A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				735DDFA881B29FD0B2A489C4E8B54D39 /* BedgeNotificHub */,
+				DD3575DE7F756C24D51FA07122BDB272 /* Pods-BedgeNotificHub_Example */,
+				1EE44EA63444D353B84C2C2CD1CBF5F5 /* Pods-BedgeNotificHub_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18769A15BC0E3484E3C59A17EAFEE3E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB94E8A9C58BDDA5D83173419E7FC1E3 /* Pods-BedgeNotificHub_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5169CCCB942A98FC3AA43688E1D99CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54739EE0514D71C38897546D4F1BC8EF /* BedgeNotificHub-dummy.m in Sources */,
+				0664A783622489C162D2CC303CE278F4 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69B81A40A2F57A4D870099FF7126F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCF97A0B9AE837A1DFC6970BBF6A74B /* Pods-BedgeNotificHub_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5920F80FC8C60447E94935406DB0168E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BedgeNotificHub_Example";
+			target = DD3575DE7F756C24D51FA07122BDB272 /* Pods-BedgeNotificHub_Example */;
+			targetProxy = D1745E94A6C3279F8F69D57C4336BC9A /* PBXContainerItemProxy */;
+		};
+		A4C40998085081D0C61D9F22924E6ECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BedgeNotificHub;
+			target = 735DDFA881B29FD0B2A489C4E8B54D39 /* BedgeNotificHub */;
+			targetProxy = 45B6F6404A386C9C6FE01B63A3D88B13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D9EBBB0876E68C259E0B8950A0A8695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC4C832D60A25A7021D1F98EE11C211 /* BedgeNotificHub.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BedgeNotificHub/BedgeNotificHub-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BedgeNotificHub/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BedgeNotificHub/BedgeNotificHub.modulemap";
+				PRODUCT_MODULE_NAME = BedgeNotificHub;
+				PRODUCT_NAME = BedgeNotificHub;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32E393C4DEBAF5669A3CF837585DE792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4E9E7067646044D1260E59571F0C53 /* Pods-BedgeNotificHub_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BedgeNotificHub_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BedgeNotificHub_Example/Pods-BedgeNotificHub_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D5AA52F6678FF0A07CE52588C672C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6819413CD7E852DC5E4FC0D0E340FEAA /* Pods-BedgeNotificHub_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BedgeNotificHub_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BedgeNotificHub_Example/Pods-BedgeNotificHub_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75F811D57DCBB772A1898148DD7FE2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5DB67A55A0101275D0E8C5D2EE2F40 /* Pods-BedgeNotificHub_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BedgeNotificHub_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BedgeNotificHub_Tests/Pods-BedgeNotificHub_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7DCCD443B5731E0EBA1315DD770DD09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC4C832D60A25A7021D1F98EE11C211 /* BedgeNotificHub.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BedgeNotificHub/BedgeNotificHub-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BedgeNotificHub/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BedgeNotificHub/BedgeNotificHub.modulemap";
+				PRODUCT_MODULE_NAME = BedgeNotificHub;
+				PRODUCT_NAME = BedgeNotificHub;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CE39C8CC386492425C06CDE11A7269E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C3782D5A235F9453EB1B68F4A6325B /* Pods-BedgeNotificHub_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BedgeNotificHub_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BedgeNotificHub_Tests/Pods-BedgeNotificHub_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B97B29425F4570E0B6D2823E5D3C05D /* Build configuration list for PBXNativeTarget "Pods-BedgeNotificHub_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5AA52F6678FF0A07CE52588C672C0B /* Debug */,
+				32E393C4DEBAF5669A3CF837585DE792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E23CC4510616A729B96F54310938AB8 /* Build configuration list for PBXNativeTarget "Pods-BedgeNotificHub_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F811D57DCBB772A1898148DD7FE2F4 /* Debug */,
+				CE39C8CC386492425C06CDE11A7269E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63534452D7B8C04CCEECAF96E43E105B /* Build configuration list for PBXNativeTarget "BedgeNotificHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9EBBB0876E68C259E0B8950A0A8695 /* Debug */,
+				7DCCD443B5731E0EBA1315DD770DD09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
