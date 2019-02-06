@@ -25,6 +25,83 @@ it, simply add the following line to your Podfile:
 pod 'BedgeNotificHub'
 ```
 
+## Usage
+Initialization
+```swift
+let hub = BedgeNotificHub(view: yourView) // Initially count set to 0
+```
+Increase count value by 1
+```swift
+hub.increment()
+```
+Increase count by some int value
+```swift
+hub.increment(by: Int)
+```
+Decrease count value by 1
+```swift
+hub.decrement()
+```
+Decrease count by some int value
+```swift
+hub.decrement(by: Int)
+```
+Set count to static integer value
+```swift
+hub.setCount(newCount: Int)
+```
+Combine actions
+```swift
+hub.increment()
+hub.pop()
+```
+
+## Customization
+
+Change the color of the notification circle
+```swift
+hub.setCircleColor(_ circleColor: UIColor?, label labelColor: UIColor?)
+```
+Change the border color and border width of the circle
+```swift
+hub.setCircleBorderColor(_ color: UIColor?, borderWidth width: CGFloat)
+```
+Set the frame of the notification circle relative to the view
+```swift
+hub.setCircleAtFrame(_ frame: CGRect)
+```
+Move the circle (left/right or up/down)
+```swift
+hub.moveCircleBy(x: CGFloat, y: CGFloat)
+```
+Changes the size of the circle. setting a scale of 1 has no effect
+```swift
+hub.scaleCircleSize(by scale: CGFloat)
+```
+Hide the count (Blank Bedge)
+```swift
+hub.hideCount()
+```
+Show count again on the bedge
+```swift
+hub.showCount()
+```
+
+## Animations
+
+Pop out and pop in the bedge
+```swift
+hub.pop()
+```
+Make bedge blinking
+```swift
+hub.blink()
+```
+Animation that jumps similar to OSX dock icons
+```swift
+hub.bump()
+```
+
 ## Author
 
 <table>
