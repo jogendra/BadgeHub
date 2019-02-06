@@ -1,6 +1,6 @@
 # BedgeNotificHub
 
-<img src="https://user-images.githubusercontent.com/20956124/52378072-b8756480-2a8c-11e9-8826-41002a5e1875.png" height="300">
+<img src="https://user-images.githubusercontent.com/20956124/52379966-080a5f00-2a92-11e9-8c85-9c34fabd4641.png">
 
 [![CI Status](https://img.shields.io/travis/jogendra/BedgeNotificHub.svg?style=flat)](https://travis-ci.org/jogendra/BedgeNotificHub)
 [![Version](https://img.shields.io/cocoapods/v/BedgeNotificHub.svg?style=flat)](https://cocoapods.org/pods/BedgeNotificHub)
