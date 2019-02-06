@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BedgeNotificHub_Example' do
+  pod 'BedgeNotificHub', :path => '../'
+
+  target 'BedgeNotificHub_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
