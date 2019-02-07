@@ -7,9 +7,23 @@
 [![License](https://img.shields.io/cocoapods/l/BedgeNotificHub.svg?style=flat)](https://cocoapods.org/pods/BedgeNotificHub)
 [![Platform](https://img.shields.io/cocoapods/p/BedgeNotificHub.svg?style=flat)](https://cocoapods.org/pods/BedgeNotificHub)
 
-## Example
+## Demo/Example
+For demo:
+```
+$ pod try BedgeNotificHub
+```
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```
+$ cd Example
+```
+```
+$ pod install
+```
+If you don't have CocoaPods installed, grab it with `[sudo] gem install cocoapods`.
+```
+$ open BedgeNotificHub.xcworkspace
+```
 
 ## Requirements
 - iOS 10.0 or later
@@ -18,12 +32,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+#### CocoaPods
+
 BedgeNotificHub is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'BedgeNotificHub'
 ```
+
+#### Manual Installation
+Just drag the `BedgeNotificHub.swift` files into your project.
 
 ## Usage
 Initialization
