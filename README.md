@@ -7,6 +7,8 @@
 [![License](https://img.shields.io/cocoapods/l/BedgeNotificHub.svg?style=flat)](https://cocoapods.org/pods/BedgeNotificHub)
 [![Platform](https://img.shields.io/cocoapods/p/BedgeNotificHub.svg?style=flat)](https://cocoapods.org/pods/BedgeNotificHub)
 
+![Blink](https://imgur.com/AEgi5tW.gif) ![Bump](https://i.imgur.com/238tikf.gif) ![Pop](https://i.imgur.com/aQ0sOtZ.gif) ![Custom](https://i.imgur.com/PhlDWXW.gif)
+
 ## Demo/Example
 For demo:
 ```
