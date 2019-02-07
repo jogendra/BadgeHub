@@ -72,22 +72,31 @@ Set count to static integer value
 hub.setCount(newCount: Int)
 ```
 Combine actions
+
+![mix](https://i.imgur.com/4DohGxr.gif)
 ```swift
 hub.increment()
 hub.pop()
+hub.blink()
 ```
 
 ## Customization
 
 Change the color of the notification circle
+
+![setCircleColor](https://i.imgur.com/MrsGB4p.gif)
 ```swift
 hub.setCircleColor(_ circleColor: UIColor?, label labelColor: UIColor?)
 ```
 Change the border color and border width of the circle
+
+![Custom](https://i.imgur.com/PhlDWXW.gif)
 ```swift
 hub.setCircleBorderColor(_ color: UIColor?, borderWidth width: CGFloat)
 ```
 Set the frame of the notification circle relative to the view
+
+![setCircle](https://i.imgur.com/8CtI0nf.gif)
 ```swift
 hub.setCircleAtFrame(_ frame: CGRect)
 ```
@@ -100,10 +109,14 @@ Changes the size of the circle. setting a scale of 1 has no effect
 hub.scaleCircleSize(by scale: CGFloat)
 ```
 Hide the count (Blank Bedge)
+
+![hideCount](https://i.imgur.com/E3hOrX5.gif)
 ```swift
 hub.hideCount()
 ```
 Show count again on the bedge
+
+![showCount](https://i.imgur.com/VHdp2vO.gif)
 ```swift
 hub.showCount()
 ```
@@ -111,14 +124,20 @@ hub.showCount()
 ## Animations
 
 Pop out and pop in the bedge
+
+![Pop](https://i.imgur.com/aQ0sOtZ.gif)
 ```swift
 hub.pop()
 ```
 Make bedge blinking
+
+![Blink](https://imgur.com/AEgi5tW.gif)
 ```swift
 hub.blink()
 ```
 Animation that jumps similar to OSX dock icons
+
+![Bump](https://i.imgur.com/238tikf.gif)
 ```swift
 hub.bump()
 ```
