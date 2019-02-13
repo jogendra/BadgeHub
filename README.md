@@ -6,6 +6,7 @@
 [![Version](https://img.shields.io/cocoapods/v/BedgeNotificHub.svg?style=flat)](https://cocoapods.org/pods/BedgeNotificHub)
 [![License](https://img.shields.io/cocoapods/l/BedgeNotificHub.svg?style=flat)](https://cocoapods.org/pods/BedgeNotificHub)
 [![Platform](https://img.shields.io/cocoapods/p/BedgeNotificHub.svg?style=flat)](https://cocoapods.org/pods/BedgeNotificHub)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5TZAT3TL6XTD4&source=url)
 
 ![Blink](https://imgur.com/AEgi5tW.gif) ![Bump](https://i.imgur.com/238tikf.gif) ![Pop](https://i.imgur.com/aQ0sOtZ.gif) ![Custom](https://i.imgur.com/PhlDWXW.gif) ![setCircle](https://i.imgur.com/8CtI0nf.gif) ![showCount](https://i.imgur.com/VHdp2vO.gif) ![mix](https://i.imgur.com/4DohGxr.gif) ![hideCount](https://i.imgur.com/E3hOrX5.gif)
 
@@ -177,6 +178,11 @@ Jogendra Kumar
 </td>
 </tr> 
 </table>
+
+## DONATION
+If this project help you reduce time to develop or you loved this project, you can give me a cup of coffee :)
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5TZAT3TL6XTD4&source=url)
 
 ## License
 
