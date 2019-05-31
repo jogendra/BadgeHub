@@ -1,4 +1,5 @@
 # BadgeHub
+A way to quickly add a notification bedge icon to any view.
 
 <img src="https://user-images.githubusercontent.com/20956124/52379966-080a5f00-2a92-11e9-8c85-9c34fabd4641.png">
 
