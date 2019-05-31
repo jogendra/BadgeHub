@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141F23960C9A03C22CCE90A6701DB69A /* BadgeHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC68332D9B78082C7CC119F427721F2B /* BadgeHub.swift */; };
+		32FF6D73AF9D618691D446C8424D0BA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8993AD9AA5E8CDA41747C77B6EAF5A4C /* Foundation.framework */; };
+		352EC3F3132B46FE5A28489149170F7D /* BadgeHub-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7CAFCFBA6032E1FBC69835DAAF1F0EF /* BadgeHub-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54D9C4CC62A96E62F75E80D5D77E5690 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE53C190EE862155746F819D2BD28B00 /* UIKit.framework */; };
+		5F7F3B726CFCF15F527102ACEF8C1880 /* BadgeHub-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F21CA661AB9E06FA2340571985F934A2 /* BadgeHub-dummy.m */; };
+		67A5C54E360280956CC87F4ABAC6D8D6 /* Pods-BadgeHub_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 243A019772B8EF6734AC0166E90B895F /* Pods-BadgeHub_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6858DE5DC8C37EEA957ADB3C22AD7D18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8993AD9AA5E8CDA41747C77B6EAF5A4C /* Foundation.framework */; };
+		9603E51B21F5F8EFB302D23DD71353F6 /* Pods-BadgeHub_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F56C917321EF816369DBBE849D39A /* Pods-BadgeHub_Tests-dummy.m */; };
+		98FE2B1858E07E5FD25F52841FA9F888 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8993AD9AA5E8CDA41747C77B6EAF5A4C /* Foundation.framework */; };
+		BB3A5778452731DE8C9F991BA3245559 /* Pods-BadgeHub_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 996A75FB22C12B9CB22BBA9F57A95182 /* Pods-BadgeHub_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBABF05205F600F79346AFCEAC387677 /* Pods-BadgeHub_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9D5E2F9FE92540486ECFFD77C22222 /* Pods-BadgeHub_Example-dummy.m */; };
+		F4C119C11D5300619C751E5028BFFB0A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27273776485A1763F1F4AC935D5AE224 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D8E8916FB40F767D161AAE7A28F3994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7F34AF38C58E505420E9A399C93FE42;
+			remoteInfo = "Pods-BadgeHub_Example";
+		};
+		9A478BE29F8A7801B04D034599E53F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1673BAD7BFAA3476E7092B6010FB689F;
+			remoteInfo = BadgeHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0059B6F12FDFB8DC233AC104D8756750 /* BadgeHub.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BadgeHub.xcconfig; sourceTree = "<group>"; };
+		0156C174EE5E1BD09C26844F75B37E52 /* Pods_BadgeHub_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BadgeHub_Tests.framework; path = "Pods-BadgeHub_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B7BF4087362B625D053AB61B5FE6B67 /* BadgeHub.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BadgeHub.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		243A019772B8EF6734AC0166E90B895F /* Pods-BadgeHub_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BadgeHub_Tests-umbrella.h"; sourceTree = "<group>"; };
+		27273776485A1763F1F4AC935D5AE224 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		276FB4624A1B963018BA5CD22376D56F /* Pods-BadgeHub_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BadgeHub_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2BD6930F314363C2A7EE4AC7D90D20DD /* BadgeHub-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BadgeHub-prefix.pch"; sourceTree = "<group>"; };
+		37986DC50CF655BF10BCE7251F802334 /* Pods-BadgeHub_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BadgeHub_Example.modulemap"; sourceTree = "<group>"; };
+		4D175136EB4EE90C961613CD0238C0EF /* Pods-BadgeHub_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadgeHub_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E02F1B3D8BE321DF56F358EBD81AD1A /* Pods-BadgeHub_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BadgeHub_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56F86FBF15205410D140EE058E318A99 /* BadgeHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BadgeHub.framework; path = BadgeHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C9D5E2F9FE92540486ECFFD77C22222 /* Pods-BadgeHub_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BadgeHub_Example-dummy.m"; sourceTree = "<group>"; };
+		65E8A2B5153ACF6BCE082CD9828464EA /* Pods_BadgeHub_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BadgeHub_Example.framework; path = "Pods-BadgeHub_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ED5A42F9DA36E89E2FD98D43D4A4C4B /* Pods-BadgeHub_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BadgeHub_Tests.modulemap"; sourceTree = "<group>"; };
+		7E117DDDA0E28F28CA554C302B6897CA /* BadgeHub-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BadgeHub-Info.plist"; sourceTree = "<group>"; };
+		7F6F56C917321EF816369DBBE849D39A /* Pods-BadgeHub_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BadgeHub_Tests-dummy.m"; sourceTree = "<group>"; };
+		881AAF942F3CD4A20630EC8FD86063FA /* Pods-BadgeHub_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadgeHub_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8993AD9AA5E8CDA41747C77B6EAF5A4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8FBD7F6C53CF5A633D75E78C08FF8C05 /* Pods-BadgeHub_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadgeHub_Example.release.xcconfig"; sourceTree = "<group>"; };
+		92F830A8EF5758E0692C23BC890D247A /* BadgeHub.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BadgeHub.modulemap; sourceTree = "<group>"; };
+		96835E858736B12B85C774759743E33D /* Pods-BadgeHub_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadgeHub_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		96EE12ACEEF48A94A2166F03396FFE80 /* Pods-BadgeHub_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BadgeHub_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		996A75FB22C12B9CB22BBA9F57A95182 /* Pods-BadgeHub_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BadgeHub_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7CAFCFBA6032E1FBC69835DAAF1F0EF /* BadgeHub-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BadgeHub-umbrella.h"; sourceTree = "<group>"; };
+		A85185EF141329C0401A3929A6F9012C /* Pods-BadgeHub_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadgeHub_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC1A71612D4FF4602DCDE8955C62DFBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CD57BEAE70A4B761665BB0C6B5F47172 /* Pods-BadgeHub_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadgeHub_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D615710882864FBFFBA6665F6C4B132F /* Pods-BadgeHub_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadgeHub_Example-Info.plist"; sourceTree = "<group>"; };
+		E2131CC711117CF49F8581AF26C96AE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EC68332D9B78082C7CC119F427721F2B /* BadgeHub.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BadgeHub.swift; path = BadgeHub/Classes/BadgeHub.swift; sourceTree = "<group>"; };
+		EE53C190EE862155746F819D2BD28B00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EFF700450C18BC4D522FFA1D5595E1A7 /* Pods-BadgeHub_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadgeHub_Tests-Info.plist"; sourceTree = "<group>"; };
+		F21CA661AB9E06FA2340571985F934A2 /* BadgeHub-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BadgeHub-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B9279845A5E3D64556BC464E402ACCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FE2B1858E07E5FD25F52841FA9F888 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2A01A4F21C88289E36AE57FE4549D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FF6D73AF9D618691D446C8424D0BA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80535A13E9884974944EACAFEA87930E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6858DE5DC8C37EEA957ADB3C22AD7D18 /* Foundation.framework in Frameworks */,
+				F4C119C11D5300619C751E5028BFFB0A /* QuartzCore.framework in Frameworks */,
+				54D9C4CC62A96E62F75E80D5D77E5690 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2B705C9614E18F354920D6F6D4D90B3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47860ADA89A0AAD226A6D9B970A697EA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92F830A8EF5758E0692C23BC890D247A /* BadgeHub.modulemap */,
+				0059B6F12FDFB8DC233AC104D8756750 /* BadgeHub.xcconfig */,
+				F21CA661AB9E06FA2340571985F934A2 /* BadgeHub-dummy.m */,
+				7E117DDDA0E28F28CA554C302B6897CA /* BadgeHub-Info.plist */,
+				2BD6930F314363C2A7EE4AC7D90D20DD /* BadgeHub-prefix.pch */,
+				A7CAFCFBA6032E1FBC69835DAAF1F0EF /* BadgeHub-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BadgeHub";
+			sourceTree = "<group>";
+		};
+		481F1DE1616AB2BB57EEE9999238C8C8 /* Pods-BadgeHub_Example */ = {
+			isa = PBXGroup;
+			children = (
+				37986DC50CF655BF10BCE7251F802334 /* Pods-BadgeHub_Example.modulemap */,
+				4E02F1B3D8BE321DF56F358EBD81AD1A /* Pods-BadgeHub_Example-acknowledgements.markdown */,
+				4D175136EB4EE90C961613CD0238C0EF /* Pods-BadgeHub_Example-acknowledgements.plist */,
+				5C9D5E2F9FE92540486ECFFD77C22222 /* Pods-BadgeHub_Example-dummy.m */,
+				276FB4624A1B963018BA5CD22376D56F /* Pods-BadgeHub_Example-frameworks.sh */,
+				D615710882864FBFFBA6665F6C4B132F /* Pods-BadgeHub_Example-Info.plist */,
+				996A75FB22C12B9CB22BBA9F57A95182 /* Pods-BadgeHub_Example-umbrella.h */,
+				96835E858736B12B85C774759743E33D /* Pods-BadgeHub_Example.debug.xcconfig */,
+				8FBD7F6C53CF5A633D75E78C08FF8C05 /* Pods-BadgeHub_Example.release.xcconfig */,
+			);
+			name = "Pods-BadgeHub_Example";
+			path = "Target Support Files/Pods-BadgeHub_Example";
+			sourceTree = "<group>";
+		};
+		5B79678FF672A80BE0DD9687FD388E86 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0B7BF4087362B625D053AB61B5FE6B67 /* BadgeHub.podspec */,
+				E2131CC711117CF49F8581AF26C96AE1 /* LICENSE */,
+				AC1A71612D4FF4602DCDE8955C62DFBA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		80B53232D704F79816B485E37C1C7EBC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				481F1DE1616AB2BB57EEE9999238C8C8 /* Pods-BadgeHub_Example */,
+				E68C611224792B636A00B967A93BF7BC /* Pods-BadgeHub_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		81FA3D5C137964867873F85564A922CE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				967943C20CA04EF214B1FBF002BC90C8 /* BadgeHub */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		967943C20CA04EF214B1FBF002BC90C8 /* BadgeHub */ = {
+			isa = PBXGroup;
+			children = (
+				EC68332D9B78082C7CC119F427721F2B /* BadgeHub.swift */,
+				5B79678FF672A80BE0DD9687FD388E86 /* Pod */,
+				47860ADA89A0AAD226A6D9B970A697EA /* Support Files */,
+			);
+			name = BadgeHub;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B1DD62D603ACEB0EF4370B4F08940BEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56F86FBF15205410D140EE058E318A99 /* BadgeHub.framework */,
+				65E8A2B5153ACF6BCE082CD9828464EA /* Pods_BadgeHub_Example.framework */,
+				0156C174EE5E1BD09C26844F75B37E52 /* Pods_BadgeHub_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2B705C9614E18F354920D6F6D4D90B3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8993AD9AA5E8CDA41747C77B6EAF5A4C /* Foundation.framework */,
+				27273776485A1763F1F4AC935D5AE224 /* QuartzCore.framework */,
+				EE53C190EE862155746F819D2BD28B00 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				81FA3D5C137964867873F85564A922CE /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				B1DD62D603ACEB0EF4370B4F08940BEB /* Products */,
+				80B53232D704F79816B485E37C1C7EBC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E68C611224792B636A00B967A93BF7BC /* Pods-BadgeHub_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6ED5A42F9DA36E89E2FD98D43D4A4C4B /* Pods-BadgeHub_Tests.modulemap */,
+				96EE12ACEEF48A94A2166F03396FFE80 /* Pods-BadgeHub_Tests-acknowledgements.markdown */,
+				A85185EF141329C0401A3929A6F9012C /* Pods-BadgeHub_Tests-acknowledgements.plist */,
+				7F6F56C917321EF816369DBBE849D39A /* Pods-BadgeHub_Tests-dummy.m */,
+				EFF700450C18BC4D522FFA1D5595E1A7 /* Pods-BadgeHub_Tests-Info.plist */,
+				243A019772B8EF6734AC0166E90B895F /* Pods-BadgeHub_Tests-umbrella.h */,
+				881AAF942F3CD4A20630EC8FD86063FA /* Pods-BadgeHub_Tests.debug.xcconfig */,
+				CD57BEAE70A4B761665BB0C6B5F47172 /* Pods-BadgeHub_Tests.release.xcconfig */,
+			);
+			name = "Pods-BadgeHub_Tests";
+			path = "Target Support Files/Pods-BadgeHub_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		326679E22C47E1C870B7CB057D103AF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3A5778452731DE8C9F991BA3245559 /* Pods-BadgeHub_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3288807DE39D41E7554ECE94BE632523 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A5C54E360280956CC87F4ABAC6D8D6 /* Pods-BadgeHub_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBF026470F762D8A8C095F64D83DDCC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352EC3F3132B46FE5A28489149170F7D /* BadgeHub-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1673BAD7BFAA3476E7092B6010FB689F /* BadgeHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 509459B9D8F4129E0E1869CC4A3A5851 /* Build configuration list for PBXNativeTarget "BadgeHub" */;
+			buildPhases = (
+				5CBF026470F762D8A8C095F64D83DDCC /* Headers */,
+				1E8856392B86DCB651A6EC9EB766A33F /* Sources */,
+				80535A13E9884974944EACAFEA87930E /* Frameworks */,
+				07C78CCA5AD56CCF1F93C6BCE6EDF8C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BadgeHub;
+			productName = BadgeHub;
+			productReference = 56F86FBF15205410D140EE058E318A99 /* BadgeHub.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7F34AF38C58E505420E9A399C93FE42 /* Pods-BadgeHub_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC19047BD9FA3FC0A342BB61D44A40F /* Build configuration list for PBXNativeTarget "Pods-BadgeHub_Example" */;
+			buildPhases = (
+				326679E22C47E1C870B7CB057D103AF7 /* Headers */,
+				8C9D9EE339B7B9C4F32760EAD120F8B0 /* Sources */,
+				7A2A01A4F21C88289E36AE57FE4549D0 /* Frameworks */,
+				A001B2BFC7F7E8C39A5F451B9CAF1E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39BB381C10096322E5F3B60E297081EE /* PBXTargetDependency */,
+			);
+			name = "Pods-BadgeHub_Example";
+			productName = "Pods-BadgeHub_Example";
+			productReference = 65E8A2B5153ACF6BCE082CD9828464EA /* Pods_BadgeHub_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0D58364DC7A769731A0A0F6B48CA999 /* Pods-BadgeHub_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83233A3985CDCC576082E0A3504E92D /* Build configuration list for PBXNativeTarget "Pods-BadgeHub_Tests" */;
+			buildPhases = (
+				3288807DE39D41E7554ECE94BE632523 /* Headers */,
+				62D5A7A966A79E25D2D27B520FB93A72 /* Sources */,
+				4B9279845A5E3D64556BC464E402ACCB /* Frameworks */,
+				AE15A8F3EB5FFBA542DEBA75DEDB2C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F5FCCF3C2B2FD38B65AA0A7788990A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-BadgeHub_Tests";
+			productName = "Pods-BadgeHub_Tests";
+			productReference = 0156C174EE5E1BD09C26844F75B37E52 /* Pods_BadgeHub_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B1DD62D603ACEB0EF4370B4F08940BEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1673BAD7BFAA3476E7092B6010FB689F /* BadgeHub */,
+				C7F34AF38C58E505420E9A399C93FE42 /* Pods-BadgeHub_Example */,
+				F0D58364DC7A769731A0A0F6B48CA999 /* Pods-BadgeHub_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07C78CCA5AD56CCF1F93C6BCE6EDF8C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A001B2BFC7F7E8C39A5F451B9CAF1E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE15A8F3EB5FFBA542DEBA75DEDB2C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E8856392B86DCB651A6EC9EB766A33F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7F3B726CFCF15F527102ACEF8C1880 /* BadgeHub-dummy.m in Sources */,
+				141F23960C9A03C22CCE90A6701DB69A /* BadgeHub.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D5A7A966A79E25D2D27B520FB93A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9603E51B21F5F8EFB302D23DD71353F6 /* Pods-BadgeHub_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9D9EE339B7B9C4F32760EAD120F8B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBABF05205F600F79346AFCEAC387677 /* Pods-BadgeHub_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39BB381C10096322E5F3B60E297081EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BadgeHub;
+			target = 1673BAD7BFAA3476E7092B6010FB689F /* BadgeHub */;
+			targetProxy = 9A478BE29F8A7801B04D034599E53F10 /* PBXContainerItemProxy */;
+		};
+		3F5FCCF3C2B2FD38B65AA0A7788990A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BadgeHub_Example";
+			target = C7F34AF38C58E505420E9A399C93FE42 /* Pods-BadgeHub_Example */;
+			targetProxy = 4D8E8916FB40F767D161AAE7A28F3994 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11A52C0B0A928A942CCA9E3FDEE8C2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD57BEAE70A4B761665BB0C6B5F47172 /* Pods-BadgeHub_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BadgeHub_Tests/Pods-BadgeHub_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BadgeHub_Tests/Pods-BadgeHub_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18F877D3DBC2EA50E5810B9B933DC7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FBD7F6C53CF5A633D75E78C08FF8C05 /* Pods-BadgeHub_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BadgeHub_Example/Pods-BadgeHub_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BadgeHub_Example/Pods-BadgeHub_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6D4A9690206C2B50640E84E7879E81F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 881AAF942F3CD4A20630EC8FD86063FA /* Pods-BadgeHub_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BadgeHub_Tests/Pods-BadgeHub_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BadgeHub_Tests/Pods-BadgeHub_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99FA093F7AD34F2348A9A13C665D6780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0059B6F12FDFB8DC233AC104D8756750 /* BadgeHub.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BadgeHub/BadgeHub-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BadgeHub/BadgeHub-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BadgeHub/BadgeHub.modulemap";
+				PRODUCT_MODULE_NAME = BadgeHub;
+				PRODUCT_NAME = BadgeHub;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF99E2305381849B1D462B15102946B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0059B6F12FDFB8DC233AC104D8756750 /* BadgeHub.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BadgeHub/BadgeHub-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BadgeHub/BadgeHub-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BadgeHub/BadgeHub.modulemap";
+				PRODUCT_MODULE_NAME = BadgeHub;
+				PRODUCT_NAME = BadgeHub;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FCCF1A259D4EA48DC096CAEAB1BE9596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96835E858736B12B85C774759743E33D /* Pods-BadgeHub_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BadgeHub_Example/Pods-BadgeHub_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BadgeHub_Example/Pods-BadgeHub_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		509459B9D8F4129E0E1869CC4A3A5851 /* Build configuration list for PBXNativeTarget "BadgeHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF99E2305381849B1D462B15102946B8 /* Debug */,
+				99FA093F7AD34F2348A9A13C665D6780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBC19047BD9FA3FC0A342BB61D44A40F /* Build configuration list for PBXNativeTarget "Pods-BadgeHub_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCF1A259D4EA48DC096CAEAB1BE9596 /* Debug */,
+				18F877D3DBC2EA50E5810B9B933DC7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83233A3985CDCC576082E0A3504E92D /* Build configuration list for PBXNativeTarget "Pods-BadgeHub_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D4A9690206C2B50640E84E7879E81F3 /* Debug */,
+				11A52C0B0A928A942CCA9E3FDEE8C2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
