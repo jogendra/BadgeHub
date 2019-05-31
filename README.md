@@ -1,5 +1,5 @@
 # BadgeHub
-A way to quickly add a notification bedge icon to any view.
+A way to quickly add a notification badge icon to any view.
 
 <img src="https://user-images.githubusercontent.com/20956124/52379966-080a5f00-2a92-11e9-8c85-9c34fabd4641.png">
 
@@ -188,4 +188,4 @@ If this project help you reduce time to develop or you loved this project, you c
 
 ## License
 
-BadgeHub is available under the MIT license. See the LICENSE file for more info.
+BadgeHub is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
