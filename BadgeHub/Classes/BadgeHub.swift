@@ -60,7 +60,7 @@ public class BadgeHub: NSObject {
     private var isIndeterminateMode = false
 
     // MARK: - SETUP
-    init(view: UIView) {
+    public init(view: UIView) {
         super.init()
 
         maxCount = 100000
@@ -76,7 +76,7 @@ public class BadgeHub: NSObject {
     //    }
 
     // Adjustment methods
-    func setView(_ view: UIView?, andCount startCount: Int) {
+    public func setView(_ view: UIView?, andCount startCount: Int) {
         curOrderMagnitude = 0
 
         let frame: CGRect? = view?.frame
@@ -152,22 +152,22 @@ public class BadgeHub: NSObject {
     }
 
     // Increases count by 1
-    func increment() {
+    public func increment() {
         increment(by: 1)
     }
 
     // Increases count by amount
-    func increment(by amount: Int) {
+    public func increment(by amount: Int) {
         count += amount
     }
 
     // Decreases count
-    func decrement() {
+    public func decrement() {
         decrement(by: 1)
     }
 
     // Decreases count by amount
-    func decrement(by amount: Int) {
+    public func decrement(by amount: Int) {
         if amount >= count {
             count = 0
             return
@@ -175,18 +175,18 @@ public class BadgeHub: NSObject {
         count -= amount
     }
 
-    func hideCount() {
+    public func hideCount() {
         countLabel?.isHidden = true
         isIndeterminateMode = true
     }
 
-    func showCount() {
+    public func showCount() {
         isIndeterminateMode = false
         checkZero()
     }
 
     // Animations
-    func pop() {
+    public func pop() {
         let height = baseFrame.size.height
         let width = baseFrame.size.width
         let popStartHeight: Float = Float(height * popStartRatio)
@@ -273,7 +273,7 @@ public class BadgeHub: NSObject {
         }
     }
 
-    func blink() {
+    public func blink() {
         self.setAlpha(alpha: Float(blinkAlpha))
 
         UIView.animate(withDuration: TimeInterval(blinkDuration), animations: {
@@ -290,7 +290,7 @@ public class BadgeHub: NSObject {
     }
 
     // Animation that jumps similar to OSX dock icons
-    func bump() {
+    public func bump() {
         if !initialCenter.equalTo(redCircle.center) {
             // canel previous animation
         }
@@ -315,7 +315,7 @@ public class BadgeHub: NSObject {
 
 
     // Set the count yourself
-    func setCount(_ newCount: Int) {
+    public func setCount(_ newCount: Int) {
         count = newCount
 
         var labelText = "\(NSNumber(value: count))"
@@ -330,11 +330,11 @@ public class BadgeHub: NSObject {
     }
 
     // Set the font of the label
-    func setCountLabel(_ font: UIFont?) {
+    public func setCountLabel(_ font: UIFont?) {
         countLabel?.font = font
     }
 
-    func countLabelFont() -> UIFont? {
+    public func countLabelFont() -> UIFont? {
         return countLabel?.font
     }
 
