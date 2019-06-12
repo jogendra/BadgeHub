@@ -131,7 +131,6 @@ public class BadgeHub: NSObject {
         redCircle.layer.borderWidth = width
     }
 
-
     public func moveCircleBy(x: CGFloat, y: CGFloat) {
         var frame: CGRect = redCircle.frame
         frame.origin.x += x
@@ -312,7 +311,6 @@ public class BadgeHub: NSObject {
             }
         }
     }
-
 
     // Set the count yourself
     public func setCount(_ newCount: Int) {
