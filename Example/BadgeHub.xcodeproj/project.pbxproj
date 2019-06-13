@@ -44,7 +44,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6BA978FDD0134429CACE8071 /* Pods-BadgeHub_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadgeHub_Example.debug.xcconfig"; path = "Target Support Files/Pods-BadgeHub_Example/Pods-BadgeHub_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8C6093D0F2D2C1CC2CAC3CF8 /* BadgeHub.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BadgeHub.podspec; path = ../BadgeHub.podspec; sourceTree = "<group>"; };
+		8C6093D0F2D2C1CC2CAC3CF8 /* BadgeHub.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BadgeHub.podspec; path = ../BadgeHub.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		989B2D641A9A7D73E7AD6F13 /* Pods-BadgeHub_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadgeHub_Tests.release.xcconfig"; path = "Target Support Files/Pods-BadgeHub_Tests/Pods-BadgeHub_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B4B146157EB2EAC3AB61F5D9 /* Pods-BadgeHub_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadgeHub_Example.release.xcconfig"; path = "Target Support Files/Pods-BadgeHub_Example/Pods-BadgeHub_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C2E79FE58B30BFE220846F82 /* Pods_BadgeHub_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BadgeHub_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -321,15 +321,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BadgeHub_Example/Pods-BadgeHub_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BadgeHub/BadgeHub.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BadgeHub.framework",
 			);

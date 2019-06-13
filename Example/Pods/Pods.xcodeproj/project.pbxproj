@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		141F23960C9A03C22CCE90A6701DB69A /* BadgeHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC68332D9B78082C7CC119F427721F2B /* BadgeHub.swift */; };
-		32FF6D73AF9D618691D446C8424D0BA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8993AD9AA5E8CDA41747C77B6EAF5A4C /* Foundation.framework */; };
-		352EC3F3132B46FE5A28489149170F7D /* BadgeHub-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7CAFCFBA6032E1FBC69835DAAF1F0EF /* BadgeHub-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54D9C4CC62A96E62F75E80D5D77E5690 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE53C190EE862155746F819D2BD28B00 /* UIKit.framework */; };
-		5F7F3B726CFCF15F527102ACEF8C1880 /* BadgeHub-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F21CA661AB9E06FA2340571985F934A2 /* BadgeHub-dummy.m */; };
-		67A5C54E360280956CC87F4ABAC6D8D6 /* Pods-BadgeHub_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 243A019772B8EF6734AC0166E90B895F /* Pods-BadgeHub_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6858DE5DC8C37EEA957ADB3C22AD7D18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8993AD9AA5E8CDA41747C77B6EAF5A4C /* Foundation.framework */; };
-		9603E51B21F5F8EFB302D23DD71353F6 /* Pods-BadgeHub_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F56C917321EF816369DBBE849D39A /* Pods-BadgeHub_Tests-dummy.m */; };
-		98FE2B1858E07E5FD25F52841FA9F888 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8993AD9AA5E8CDA41747C77B6EAF5A4C /* Foundation.framework */; };
-		BB3A5778452731DE8C9F991BA3245559 /* Pods-BadgeHub_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 996A75FB22C12B9CB22BBA9F57A95182 /* Pods-BadgeHub_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBABF05205F600F79346AFCEAC387677 /* Pods-BadgeHub_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9D5E2F9FE92540486ECFFD77C22222 /* Pods-BadgeHub_Example-dummy.m */; };
-		F4C119C11D5300619C751E5028BFFB0A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27273776485A1763F1F4AC935D5AE224 /* QuartzCore.framework */; };
+		32FF6D73AF9D618691D446C8424D0BA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		352EC3F3132B46FE5A28489149170F7D /* BadgeHub-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7CE64515BCCB0D16BCF573389290D3 /* BadgeHub-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BE9A654606548F49FDDA2F6C8AD8C8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */; };
+		67A5C54E360280956CC87F4ABAC6D8D6 /* Pods-BadgeHub_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B4618032589D8DC7AF3511F5036D92 /* Pods-BadgeHub_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EA1D23A320E07DBEFF8192484D169CC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */; };
+		72CF5632CA43203B6AC4CCF1C53F68D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		9603E51B21F5F8EFB302D23DD71353F6 /* Pods-BadgeHub_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 626B59F7AE283B88DF08A9AAE175763C /* Pods-BadgeHub_Tests-dummy.m */; };
+		98FE2B1858E07E5FD25F52841FA9F888 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		BB3A5778452731DE8C9F991BA3245559 /* Pods-BadgeHub_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1CC9B2504841A5D3862A6621073708E /* Pods-BadgeHub_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBABF05205F600F79346AFCEAC387677 /* Pods-BadgeHub_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2683140B776E6316388856BBD076A4F /* Pods-BadgeHub_Example-dummy.m */; };
+		EEDDE4F4667F93B501146412D0F2E6D0 /* BadgeHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC68332D9B78082C7CC119F427721F2B /* BadgeHub.swift */; };
+		F2F4012B43D3D767718281523DC8080C /* BadgeHub-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A17C27D797C5B04BD65FCA5EA0612E /* BadgeHub-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,53 +26,53 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C7F34AF38C58E505420E9A399C93FE42;
+			remoteGlobalIDString = AC2E180CF0FA036D3AFE6C930895209F;
 			remoteInfo = "Pods-BadgeHub_Example";
 		};
 		9A478BE29F8A7801B04D034599E53F10 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1673BAD7BFAA3476E7092B6010FB689F;
+			remoteGlobalIDString = 50EB4B7A37D813AB89E6146719E0D088;
 			remoteInfo = BadgeHub;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0059B6F12FDFB8DC233AC104D8756750 /* BadgeHub.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BadgeHub.xcconfig; sourceTree = "<group>"; };
-		0156C174EE5E1BD09C26844F75B37E52 /* Pods_BadgeHub_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BadgeHub_Tests.framework; path = "Pods-BadgeHub_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB2C3CD694CCF8F65C16D93482E77DE /* Pods-BadgeHub_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadgeHub_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0B7BF4087362B625D053AB61B5FE6B67 /* BadgeHub.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BadgeHub.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		243A019772B8EF6734AC0166E90B895F /* Pods-BadgeHub_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BadgeHub_Tests-umbrella.h"; sourceTree = "<group>"; };
-		27273776485A1763F1F4AC935D5AE224 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		276FB4624A1B963018BA5CD22376D56F /* Pods-BadgeHub_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BadgeHub_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2BD6930F314363C2A7EE4AC7D90D20DD /* BadgeHub-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BadgeHub-prefix.pch"; sourceTree = "<group>"; };
-		37986DC50CF655BF10BCE7251F802334 /* Pods-BadgeHub_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BadgeHub_Example.modulemap"; sourceTree = "<group>"; };
-		4D175136EB4EE90C961613CD0238C0EF /* Pods-BadgeHub_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadgeHub_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4E02F1B3D8BE321DF56F358EBD81AD1A /* Pods-BadgeHub_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BadgeHub_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		56F86FBF15205410D140EE058E318A99 /* BadgeHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BadgeHub.framework; path = BadgeHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C9D5E2F9FE92540486ECFFD77C22222 /* Pods-BadgeHub_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BadgeHub_Example-dummy.m"; sourceTree = "<group>"; };
-		65E8A2B5153ACF6BCE082CD9828464EA /* Pods_BadgeHub_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BadgeHub_Example.framework; path = "Pods-BadgeHub_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ED5A42F9DA36E89E2FD98D43D4A4C4B /* Pods-BadgeHub_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BadgeHub_Tests.modulemap"; sourceTree = "<group>"; };
-		7E117DDDA0E28F28CA554C302B6897CA /* BadgeHub-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BadgeHub-Info.plist"; sourceTree = "<group>"; };
-		7F6F56C917321EF816369DBBE849D39A /* Pods-BadgeHub_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BadgeHub_Tests-dummy.m"; sourceTree = "<group>"; };
-		881AAF942F3CD4A20630EC8FD86063FA /* Pods-BadgeHub_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadgeHub_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8993AD9AA5E8CDA41747C77B6EAF5A4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8FBD7F6C53CF5A633D75E78C08FF8C05 /* Pods-BadgeHub_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadgeHub_Example.release.xcconfig"; sourceTree = "<group>"; };
-		92F830A8EF5758E0692C23BC890D247A /* BadgeHub.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BadgeHub.modulemap; sourceTree = "<group>"; };
-		96835E858736B12B85C774759743E33D /* Pods-BadgeHub_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadgeHub_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		96EE12ACEEF48A94A2166F03396FFE80 /* Pods-BadgeHub_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BadgeHub_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		996A75FB22C12B9CB22BBA9F57A95182 /* Pods-BadgeHub_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BadgeHub_Example-umbrella.h"; sourceTree = "<group>"; };
+		1894E2F858F85AC90BD6F982DD1407CB /* BadgeHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BadgeHub.framework; path = BadgeHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FFCB0B7CF168A3F046E86E1A10DB72 /* Pods_BadgeHub_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BadgeHub_Tests.framework; path = "Pods-BadgeHub_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36A17C27D797C5B04BD65FCA5EA0612E /* BadgeHub-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BadgeHub-dummy.m"; sourceTree = "<group>"; };
+		49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5A2FDB377D1C2992200CA49E26160AC5 /* Pods-BadgeHub_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadgeHub_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		626B59F7AE283B88DF08A9AAE175763C /* Pods-BadgeHub_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BadgeHub_Tests-dummy.m"; sourceTree = "<group>"; };
+		7C7CE64515BCCB0D16BCF573389290D3 /* BadgeHub-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BadgeHub-umbrella.h"; sourceTree = "<group>"; };
+		876631F060E749B1F2F0733C3E38970F /* BadgeHub-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BadgeHub-Info.plist"; sourceTree = "<group>"; };
+		8A439AA5AF8D97115126C12439CAE2E1 /* Pods-BadgeHub_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadgeHub_Example-Info.plist"; sourceTree = "<group>"; };
+		950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		96BB850C5ACE5240AF2FD833A5E5F1D2 /* Pods-BadgeHub_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadgeHub_Tests-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7CAFCFBA6032E1FBC69835DAAF1F0EF /* BadgeHub-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BadgeHub-umbrella.h"; sourceTree = "<group>"; };
-		A85185EF141329C0401A3929A6F9012C /* Pods-BadgeHub_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadgeHub_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A2BA6ACCDEF229D3B46FD0F85C27BD59 /* Pods-BadgeHub_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BadgeHub_Example.modulemap"; sourceTree = "<group>"; };
+		A44EF3BC485E0972F1C7846D4C378BAA /* Pods-BadgeHub_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadgeHub_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A48D15D5F95EA5BFE514A0C4BD930863 /* Pods-BadgeHub_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BadgeHub_Tests.modulemap"; sourceTree = "<group>"; };
 		AC1A71612D4FF4602DCDE8955C62DFBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CD57BEAE70A4B761665BB0C6B5F47172 /* Pods-BadgeHub_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadgeHub_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D615710882864FBFFBA6665F6C4B132F /* Pods-BadgeHub_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadgeHub_Example-Info.plist"; sourceTree = "<group>"; };
+		ADC64F9B2BDF484DBBBA352D12058927 /* Pods_BadgeHub_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BadgeHub_Example.framework; path = "Pods-BadgeHub_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF52616856545A79F11999FFBBF32485 /* Pods-BadgeHub_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BadgeHub_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B5B4618032589D8DC7AF3511F5036D92 /* Pods-BadgeHub_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BadgeHub_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B660A01055038D779223F9D961491007 /* Pods-BadgeHub_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BadgeHub_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C05A1C1985B4E3658674C9C682C9C202 /* Pods-BadgeHub_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadgeHub_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C1C654360B9DE3A86302B66D2C82A06C /* BadgeHub.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BadgeHub.xcconfig; sourceTree = "<group>"; };
+		C79193BB1AC5B405C95C7132C08763AA /* Pods-BadgeHub_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BadgeHub_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D01E0E70D56B6B2090DA6F451EC9CDAC /* BadgeHub-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BadgeHub-prefix.pch"; sourceTree = "<group>"; };
+		D2683140B776E6316388856BBD076A4F /* Pods-BadgeHub_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BadgeHub_Example-dummy.m"; sourceTree = "<group>"; };
+		D54298BA4523786380AC669BAA84909B /* Pods-BadgeHub_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadgeHub_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E1CC9B2504841A5D3862A6621073708E /* Pods-BadgeHub_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BadgeHub_Example-umbrella.h"; sourceTree = "<group>"; };
 		E2131CC711117CF49F8581AF26C96AE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E28B11AF13E953D0CB0ADDE9FB850002 /* Pods-BadgeHub_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadgeHub_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EC68332D9B78082C7CC119F427721F2B /* BadgeHub.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BadgeHub.swift; path = BadgeHub/Classes/BadgeHub.swift; sourceTree = "<group>"; };
-		EE53C190EE862155746F819D2BD28B00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		EFF700450C18BC4D522FFA1D5595E1A7 /* Pods-BadgeHub_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadgeHub_Tests-Info.plist"; sourceTree = "<group>"; };
-		F21CA661AB9E06FA2340571985F934A2 /* BadgeHub-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BadgeHub-dummy.m"; sourceTree = "<group>"; };
+		F202039E02E4A40CC2E44AF3CCC6A1B2 /* BadgeHub.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BadgeHub.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,13 +92,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80535A13E9884974944EACAFEA87930E /* Frameworks */ = {
+		F95BB5AE55EA6F4AC2931658F81804B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6858DE5DC8C37EEA957ADB3C22AD7D18 /* Foundation.framework in Frameworks */,
-				F4C119C11D5300619C751E5028BFFB0A /* QuartzCore.framework in Frameworks */,
-				54D9C4CC62A96E62F75E80D5D77E5690 /* UIKit.framework in Frameworks */,
+				72CF5632CA43203B6AC4CCF1C53F68D2 /* Foundation.framework in Frameworks */,
+				6EA1D23A320E07DBEFF8192484D169CC /* QuartzCore.framework in Frameworks */,
+				5BE9A654606548F49FDDA2F6C8AD8C8C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,40 +108,9 @@
 		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B2B705C9614E18F354920D6F6D4D90B3 /* iOS */,
+				C18BABFF9523A33465B5A91496FF0C3D /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		47860ADA89A0AAD226A6D9B970A697EA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				92F830A8EF5758E0692C23BC890D247A /* BadgeHub.modulemap */,
-				0059B6F12FDFB8DC233AC104D8756750 /* BadgeHub.xcconfig */,
-				F21CA661AB9E06FA2340571985F934A2 /* BadgeHub-dummy.m */,
-				7E117DDDA0E28F28CA554C302B6897CA /* BadgeHub-Info.plist */,
-				2BD6930F314363C2A7EE4AC7D90D20DD /* BadgeHub-prefix.pch */,
-				A7CAFCFBA6032E1FBC69835DAAF1F0EF /* BadgeHub-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BadgeHub";
-			sourceTree = "<group>";
-		};
-		481F1DE1616AB2BB57EEE9999238C8C8 /* Pods-BadgeHub_Example */ = {
-			isa = PBXGroup;
-			children = (
-				37986DC50CF655BF10BCE7251F802334 /* Pods-BadgeHub_Example.modulemap */,
-				4E02F1B3D8BE321DF56F358EBD81AD1A /* Pods-BadgeHub_Example-acknowledgements.markdown */,
-				4D175136EB4EE90C961613CD0238C0EF /* Pods-BadgeHub_Example-acknowledgements.plist */,
-				5C9D5E2F9FE92540486ECFFD77C22222 /* Pods-BadgeHub_Example-dummy.m */,
-				276FB4624A1B963018BA5CD22376D56F /* Pods-BadgeHub_Example-frameworks.sh */,
-				D615710882864FBFFBA6665F6C4B132F /* Pods-BadgeHub_Example-Info.plist */,
-				996A75FB22C12B9CB22BBA9F57A95182 /* Pods-BadgeHub_Example-umbrella.h */,
-				96835E858736B12B85C774759743E33D /* Pods-BadgeHub_Example.debug.xcconfig */,
-				8FBD7F6C53CF5A633D75E78C08FF8C05 /* Pods-BadgeHub_Example.release.xcconfig */,
-			);
-			name = "Pods-BadgeHub_Example";
-			path = "Target Support Files/Pods-BadgeHub_Example";
 			sourceTree = "<group>";
 		};
 		5B79678FF672A80BE0DD9687FD388E86 /* Pod */ = {
@@ -157,8 +126,8 @@
 		80B53232D704F79816B485E37C1C7EBC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				481F1DE1616AB2BB57EEE9999238C8C8 /* Pods-BadgeHub_Example */,
-				E68C611224792B636A00B967A93BF7BC /* Pods-BadgeHub_Tests */,
+				B317EFEF07C3A6608BCBCDB9AE838BE9 /* Pods-BadgeHub_Example */,
+				A1960EB4644B46A274608C9E9C2D95CF /* Pods-BadgeHub_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -176,28 +145,61 @@
 			children = (
 				EC68332D9B78082C7CC119F427721F2B /* BadgeHub.swift */,
 				5B79678FF672A80BE0DD9687FD388E86 /* Pod */,
-				47860ADA89A0AAD226A6D9B970A697EA /* Support Files */,
+				DE4DF7AEDB8EEB32F46A34C9B0A48A10 /* Support Files */,
 			);
 			name = BadgeHub;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		A1960EB4644B46A274608C9E9C2D95CF /* Pods-BadgeHub_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A48D15D5F95EA5BFE514A0C4BD930863 /* Pods-BadgeHub_Tests.modulemap */,
+				AF52616856545A79F11999FFBBF32485 /* Pods-BadgeHub_Tests-acknowledgements.markdown */,
+				E28B11AF13E953D0CB0ADDE9FB850002 /* Pods-BadgeHub_Tests-acknowledgements.plist */,
+				626B59F7AE283B88DF08A9AAE175763C /* Pods-BadgeHub_Tests-dummy.m */,
+				96BB850C5ACE5240AF2FD833A5E5F1D2 /* Pods-BadgeHub_Tests-Info.plist */,
+				B5B4618032589D8DC7AF3511F5036D92 /* Pods-BadgeHub_Tests-umbrella.h */,
+				5A2FDB377D1C2992200CA49E26160AC5 /* Pods-BadgeHub_Tests.debug.xcconfig */,
+				C05A1C1985B4E3658674C9C682C9C202 /* Pods-BadgeHub_Tests.release.xcconfig */,
+			);
+			name = "Pods-BadgeHub_Tests";
+			path = "Target Support Files/Pods-BadgeHub_Tests";
+			sourceTree = "<group>";
+		};
 		B1DD62D603ACEB0EF4370B4F08940BEB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				56F86FBF15205410D140EE058E318A99 /* BadgeHub.framework */,
-				65E8A2B5153ACF6BCE082CD9828464EA /* Pods_BadgeHub_Example.framework */,
-				0156C174EE5E1BD09C26844F75B37E52 /* Pods_BadgeHub_Tests.framework */,
+				1894E2F858F85AC90BD6F982DD1407CB /* BadgeHub.framework */,
+				ADC64F9B2BDF484DBBBA352D12058927 /* Pods_BadgeHub_Example.framework */,
+				27FFCB0B7CF168A3F046E86E1A10DB72 /* Pods_BadgeHub_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B2B705C9614E18F354920D6F6D4D90B3 /* iOS */ = {
+		B317EFEF07C3A6608BCBCDB9AE838BE9 /* Pods-BadgeHub_Example */ = {
 			isa = PBXGroup;
 			children = (
-				8993AD9AA5E8CDA41747C77B6EAF5A4C /* Foundation.framework */,
-				27273776485A1763F1F4AC935D5AE224 /* QuartzCore.framework */,
-				EE53C190EE862155746F819D2BD28B00 /* UIKit.framework */,
+				A2BA6ACCDEF229D3B46FD0F85C27BD59 /* Pods-BadgeHub_Example.modulemap */,
+				B660A01055038D779223F9D961491007 /* Pods-BadgeHub_Example-acknowledgements.markdown */,
+				A44EF3BC485E0972F1C7846D4C378BAA /* Pods-BadgeHub_Example-acknowledgements.plist */,
+				D2683140B776E6316388856BBD076A4F /* Pods-BadgeHub_Example-dummy.m */,
+				C79193BB1AC5B405C95C7132C08763AA /* Pods-BadgeHub_Example-frameworks.sh */,
+				8A439AA5AF8D97115126C12439CAE2E1 /* Pods-BadgeHub_Example-Info.plist */,
+				E1CC9B2504841A5D3862A6621073708E /* Pods-BadgeHub_Example-umbrella.h */,
+				D54298BA4523786380AC669BAA84909B /* Pods-BadgeHub_Example.debug.xcconfig */,
+				0AB2C3CD694CCF8F65C16D93482E77DE /* Pods-BadgeHub_Example.release.xcconfig */,
+			);
+			name = "Pods-BadgeHub_Example";
+			path = "Target Support Files/Pods-BadgeHub_Example";
+			sourceTree = "<group>";
+		};
+		C18BABFF9523A33465B5A91496FF0C3D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */,
+				CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */,
+				49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -213,20 +215,18 @@
 			);
 			sourceTree = "<group>";
 		};
-		E68C611224792B636A00B967A93BF7BC /* Pods-BadgeHub_Tests */ = {
+		DE4DF7AEDB8EEB32F46A34C9B0A48A10 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6ED5A42F9DA36E89E2FD98D43D4A4C4B /* Pods-BadgeHub_Tests.modulemap */,
-				96EE12ACEEF48A94A2166F03396FFE80 /* Pods-BadgeHub_Tests-acknowledgements.markdown */,
-				A85185EF141329C0401A3929A6F9012C /* Pods-BadgeHub_Tests-acknowledgements.plist */,
-				7F6F56C917321EF816369DBBE849D39A /* Pods-BadgeHub_Tests-dummy.m */,
-				EFF700450C18BC4D522FFA1D5595E1A7 /* Pods-BadgeHub_Tests-Info.plist */,
-				243A019772B8EF6734AC0166E90B895F /* Pods-BadgeHub_Tests-umbrella.h */,
-				881AAF942F3CD4A20630EC8FD86063FA /* Pods-BadgeHub_Tests.debug.xcconfig */,
-				CD57BEAE70A4B761665BB0C6B5F47172 /* Pods-BadgeHub_Tests.release.xcconfig */,
+				F202039E02E4A40CC2E44AF3CCC6A1B2 /* BadgeHub.modulemap */,
+				C1C654360B9DE3A86302B66D2C82A06C /* BadgeHub.xcconfig */,
+				36A17C27D797C5B04BD65FCA5EA0612E /* BadgeHub-dummy.m */,
+				876631F060E749B1F2F0733C3E38970F /* BadgeHub-Info.plist */,
+				D01E0E70D56B6B2090DA6F451EC9CDAC /* BadgeHub-prefix.pch */,
+				7C7CE64515BCCB0D16BCF573389290D3 /* BadgeHub-umbrella.h */,
 			);
-			name = "Pods-BadgeHub_Tests";
-			path = "Target Support Files/Pods-BadgeHub_Tests";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BadgeHub";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,13 +259,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1673BAD7BFAA3476E7092B6010FB689F /* BadgeHub */ = {
+		50EB4B7A37D813AB89E6146719E0D088 /* BadgeHub */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 509459B9D8F4129E0E1869CC4A3A5851 /* Build configuration list for PBXNativeTarget "BadgeHub" */;
 			buildPhases = (
 				5CBF026470F762D8A8C095F64D83DDCC /* Headers */,
-				1E8856392B86DCB651A6EC9EB766A33F /* Sources */,
-				80535A13E9884974944EACAFEA87930E /* Frameworks */,
+				D4AD3FAE487996BD2B203F061601150B /* Sources */,
+				F95BB5AE55EA6F4AC2931658F81804B0 /* Frameworks */,
 				07C78CCA5AD56CCF1F93C6BCE6EDF8C4 /* Resources */,
 			);
 			buildRules = (
@@ -274,29 +274,10 @@
 			);
 			name = BadgeHub;
 			productName = BadgeHub;
-			productReference = 56F86FBF15205410D140EE058E318A99 /* BadgeHub.framework */;
+			productReference = 1894E2F858F85AC90BD6F982DD1407CB /* BadgeHub.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C7F34AF38C58E505420E9A399C93FE42 /* Pods-BadgeHub_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CBC19047BD9FA3FC0A342BB61D44A40F /* Build configuration list for PBXNativeTarget "Pods-BadgeHub_Example" */;
-			buildPhases = (
-				326679E22C47E1C870B7CB057D103AF7 /* Headers */,
-				8C9D9EE339B7B9C4F32760EAD120F8B0 /* Sources */,
-				7A2A01A4F21C88289E36AE57FE4549D0 /* Frameworks */,
-				A001B2BFC7F7E8C39A5F451B9CAF1E3C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				39BB381C10096322E5F3B60E297081EE /* PBXTargetDependency */,
-			);
-			name = "Pods-BadgeHub_Example";
-			productName = "Pods-BadgeHub_Example";
-			productReference = 65E8A2B5153ACF6BCE082CD9828464EA /* Pods_BadgeHub_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F0D58364DC7A769731A0A0F6B48CA999 /* Pods-BadgeHub_Tests */ = {
+		94FF05A2F6D55858A8D7C91EA71305BA /* Pods-BadgeHub_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F83233A3985CDCC576082E0A3504E92D /* Build configuration list for PBXNativeTarget "Pods-BadgeHub_Tests" */;
 			buildPhases = (
@@ -312,7 +293,26 @@
 			);
 			name = "Pods-BadgeHub_Tests";
 			productName = "Pods-BadgeHub_Tests";
-			productReference = 0156C174EE5E1BD09C26844F75B37E52 /* Pods_BadgeHub_Tests.framework */;
+			productReference = 27FFCB0B7CF168A3F046E86E1A10DB72 /* Pods_BadgeHub_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC2E180CF0FA036D3AFE6C930895209F /* Pods-BadgeHub_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC19047BD9FA3FC0A342BB61D44A40F /* Build configuration list for PBXNativeTarget "Pods-BadgeHub_Example" */;
+			buildPhases = (
+				326679E22C47E1C870B7CB057D103AF7 /* Headers */,
+				8C9D9EE339B7B9C4F32760EAD120F8B0 /* Sources */,
+				7A2A01A4F21C88289E36AE57FE4549D0 /* Frameworks */,
+				A001B2BFC7F7E8C39A5F451B9CAF1E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39BB381C10096322E5F3B60E297081EE /* PBXTargetDependency */,
+			);
+			name = "Pods-BadgeHub_Example";
+			productName = "Pods-BadgeHub_Example";
+			productReference = ADC64F9B2BDF484DBBBA352D12058927 /* Pods_BadgeHub_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -336,9 +336,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1673BAD7BFAA3476E7092B6010FB689F /* BadgeHub */,
-				C7F34AF38C58E505420E9A399C93FE42 /* Pods-BadgeHub_Example */,
-				F0D58364DC7A769731A0A0F6B48CA999 /* Pods-BadgeHub_Tests */,
+				50EB4B7A37D813AB89E6146719E0D088 /* BadgeHub */,
+				AC2E180CF0FA036D3AFE6C930895209F /* Pods-BadgeHub_Example */,
+				94FF05A2F6D55858A8D7C91EA71305BA /* Pods-BadgeHub_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -368,15 +368,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E8856392B86DCB651A6EC9EB766A33F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F7F3B726CFCF15F527102ACEF8C1880 /* BadgeHub-dummy.m in Sources */,
-				141F23960C9A03C22CCE90A6701DB69A /* BadgeHub.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		62D5A7A966A79E25D2D27B520FB93A72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -393,19 +384,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D4AD3FAE487996BD2B203F061601150B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F4012B43D3D767718281523DC8080C /* BadgeHub-dummy.m in Sources */,
+				EEDDE4F4667F93B501146412D0F2E6D0 /* BadgeHub.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		39BB381C10096322E5F3B60E297081EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BadgeHub;
-			target = 1673BAD7BFAA3476E7092B6010FB689F /* BadgeHub */;
+			target = 50EB4B7A37D813AB89E6146719E0D088 /* BadgeHub */;
 			targetProxy = 9A478BE29F8A7801B04D034599E53F10 /* PBXContainerItemProxy */;
 		};
 		3F5FCCF3C2B2FD38B65AA0A7788990A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-BadgeHub_Example";
-			target = C7F34AF38C58E505420E9A399C93FE42 /* Pods-BadgeHub_Example */;
+			target = AC2E180CF0FA036D3AFE6C930895209F /* Pods-BadgeHub_Example */;
 			targetProxy = 4D8E8916FB40F767D161AAE7A28F3994 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -413,7 +413,7 @@
 /* Begin XCBuildConfiguration section */
 		11A52C0B0A928A942CCA9E3FDEE8C2B7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD57BEAE70A4B761665BB0C6B5F47172 /* Pods-BadgeHub_Tests.release.xcconfig */;
+			baseConfigurationReference = C05A1C1985B4E3658674C9C682C9C202 /* Pods-BadgeHub_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -448,7 +448,7 @@
 		};
 		18F877D3DBC2EA50E5810B9B933DC7A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FBD7F6C53CF5A633D75E78C08FF8C05 /* Pods-BadgeHub_Example.release.xcconfig */;
+			baseConfigurationReference = 0AB2C3CD694CCF8F65C16D93482E77DE /* Pods-BadgeHub_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -547,7 +547,7 @@
 		};
 		6D4A9690206C2B50640E84E7879E81F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 881AAF942F3CD4A20630EC8FD86063FA /* Pods-BadgeHub_Tests.debug.xcconfig */;
+			baseConfigurationReference = 5A2FDB377D1C2992200CA49E26160AC5 /* Pods-BadgeHub_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -581,7 +581,7 @@
 		};
 		99FA093F7AD34F2348A9A13C665D6780 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0059B6F12FDFB8DC233AC104D8756750 /* BadgeHub.xcconfig */;
+			baseConfigurationReference = C1C654360B9DE3A86302B66D2C82A06C /* BadgeHub.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -614,7 +614,7 @@
 		};
 		AF99E2305381849B1D462B15102946B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0059B6F12FDFB8DC233AC104D8756750 /* BadgeHub.xcconfig */;
+			baseConfigurationReference = C1C654360B9DE3A86302B66D2C82A06C /* BadgeHub.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -706,7 +706,7 @@
 		};
 		FCCF1A259D4EA48DC096CAEAB1BE9596 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96835E858736B12B85C774759743E33D /* Pods-BadgeHub_Example.debug.xcconfig */;
+			baseConfigurationReference = D54298BA4523786380AC669BAA84909B /* Pods-BadgeHub_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
