@@ -76,7 +76,7 @@ public class BadgeHub: NSObject {
     //    }
 
     // Adjustment methods
-     public func setView(_ view: UIView?, andCount startCount: Int) {
+    public func setView(_ view: UIView?, andCount startCount: Int) {
         curOrderMagnitude = 0
 
         let frame: CGRect? = view?.frame
