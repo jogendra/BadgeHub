@@ -106,7 +106,7 @@ public class BadgeHub: NSObject {
     }
 
     // Set the frame of the notification circle relative to the button
-    func setCircleAtFrame(_ frame: CGRect) {
+    public func setCircleAtFrame(_ frame: CGRect) {
         redCircle.frame = frame
         initialCenter = CGPoint(x: frame.origin.x + frame.size.width / 2, y: frame.origin.y + frame.size.height / 2)
         baseFrame = frame
@@ -118,7 +118,7 @@ public class BadgeHub: NSObject {
     }
 
     // Change the color of the notification circle
-    func setCircleColor(_ circleColor: UIColor?, label labelColor: UIColor?) {
+    public func setCircleColor(_ circleColor: UIColor?, label labelColor: UIColor?) {
         redCircle.isUserChangingBackgroundColor = true
         redCircle.backgroundColor = circleColor
         if let labelColor = labelColor {
@@ -126,13 +126,12 @@ public class BadgeHub: NSObject {
         }
     }
 
-    func setCircleBorderColor(_ color: UIColor?, borderWidth width: CGFloat) {
+    public func setCircleBorderColor(_ color: UIColor?, borderWidth width: CGFloat) {
         redCircle.layer.borderColor = color?.cgColor
         redCircle.layer.borderWidth = width
     }
 
-
-    func moveCircleBy(x: CGFloat, y: CGFloat) {
+    public func moveCircleBy(x: CGFloat, y: CGFloat) {
         var frame: CGRect = redCircle.frame
         frame.origin.x += x
         frame.origin.y += y
@@ -140,7 +139,7 @@ public class BadgeHub: NSObject {
     }
 
     // Changes the size of the circle. setting a scale of 1 has no effect
-    func scaleCircleSize(by scale: CGFloat) {
+    public func scaleCircleSize(by scale: CGFloat) {
         let fr: CGRect = initialFrame
         let width: CGFloat = fr.size.width * scale
         let height: CGFloat = fr.size.height * scale
@@ -313,7 +312,6 @@ public class BadgeHub: NSObject {
         }
     }
 
-
     // Set the count yourself
     public func setCount(_ newCount: Int) {
         count = newCount
@@ -339,19 +337,19 @@ public class BadgeHub: NSObject {
     }
 
 
-    func bumpCenterY(yVal: Float) {
+    public func bumpCenterY(yVal: Float) {
         var center: CGPoint = redCircle.center
         center.y = initialCenter.y - CGFloat(yVal)
         redCircle.center = center
         countLabel?.center = center
     }
 
-    func setAlpha(alpha: Float) {
+    public func setAlpha(alpha: Float) {
         redCircle.alpha = CGFloat(alpha)
         countLabel?.alpha = CGFloat(alpha)
     }
 
-    func checkZero() {
+    public func checkZero() {
         if count <= 0 {
             redCircle.isHidden = true
             countLabel?.isHidden = true
