@@ -181,11 +181,6 @@ Jogendra Kumar
 </tr> 
 </table>
 
-## DONATION
-If this project help you reduce time to develop or you loved this project, you can give me a cup of coffee :)
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5TZAT3TL6XTD4&source=url)
-
 ## License
 
 BadgeHub is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
