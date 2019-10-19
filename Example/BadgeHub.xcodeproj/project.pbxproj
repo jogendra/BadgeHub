@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		409E208B22A0EA960015F372 /* BadgeHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E208A22A0EA960015F372 /* BadgeHub.swift */; };
+		5CF5469B23CD4412180EC265 /* Pods_BadgeHub_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99B949FDF4C29157B7AAA80 /* Pods_BadgeHub_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		D6302F7FF0D1A717F8D48CB2 /* Pods_BadgeHub_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACD982BC89AFECA3FDBF522 /* Pods_BadgeHub_Example.framework */; };
-		D718449DC4E84CD87DF085B1 /* Pods_BadgeHub_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E79FE58B30BFE220846F82 /* Pods_BadgeHub_Tests.framework */; };
+		6E822C1E5FB9B31594C25522 /* Pods_BadgeHub_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E10A04D9090580E3870369 /* Pods_BadgeHub_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2094A816E814F8EE07287E16 /* Pods-BadgeHub_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadgeHub_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BadgeHub_Tests/Pods-BadgeHub_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		233A0B96E97A310B89896481 /* Pods-BadgeHub_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadgeHub_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BadgeHub_Tests/Pods-BadgeHub_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		300739EB25517DE0F7C10BBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3ACD982BC89AFECA3FDBF522 /* Pods_BadgeHub_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BadgeHub_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		409E208A22A0EA960015F372 /* BadgeHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeHub.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BadgeHub_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BadgeHub_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,12 +42,13 @@
 		607FACE51AFB9204008FA782 /* BadgeHub_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadgeHub_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6BA978FDD0134429CACE8071 /* Pods-BadgeHub_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadgeHub_Example.debug.xcconfig"; path = "Target Support Files/Pods-BadgeHub_Example/Pods-BadgeHub_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		67B5FCB264016BBA2C45A383 /* Pods-BadgeHub_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadgeHub_Tests.release.xcconfig"; path = "Target Support Files/Pods-BadgeHub_Tests/Pods-BadgeHub_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6948969C9044C28999771997 /* Pods-BadgeHub_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadgeHub_Example.release.xcconfig"; path = "Target Support Files/Pods-BadgeHub_Example/Pods-BadgeHub_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8C6093D0F2D2C1CC2CAC3CF8 /* BadgeHub.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BadgeHub.podspec; path = ../BadgeHub.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		989B2D641A9A7D73E7AD6F13 /* Pods-BadgeHub_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadgeHub_Tests.release.xcconfig"; path = "Target Support Files/Pods-BadgeHub_Tests/Pods-BadgeHub_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B4B146157EB2EAC3AB61F5D9 /* Pods-BadgeHub_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadgeHub_Example.release.xcconfig"; path = "Target Support Files/Pods-BadgeHub_Example/Pods-BadgeHub_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C2E79FE58B30BFE220846F82 /* Pods_BadgeHub_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BadgeHub_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E10A04D9090580E3870369 /* Pods_BadgeHub_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BadgeHub_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CA62CC52285B07C6DE25BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D9CF89D9A9AFBBE9CE5926BC /* Pods-BadgeHub_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadgeHub_Example.debug.xcconfig"; path = "Target Support Files/Pods-BadgeHub_Example/Pods-BadgeHub_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E99B949FDF4C29157B7AAA80 /* Pods_BadgeHub_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BadgeHub_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6302F7FF0D1A717F8D48CB2 /* Pods_BadgeHub_Example.framework in Frameworks */,
+				6E822C1E5FB9B31594C25522 /* Pods_BadgeHub_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D718449DC4E84CD87DF085B1 /* Pods_BadgeHub_Tests.framework in Frameworks */,
+				5CF5469B23CD4412180EC265 /* Pods_BadgeHub_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +87,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				82F335FFE41F0BB45F417374 /* Pods */,
-				CF993331D6F4AA7B453A07FD /* Frameworks */,
+				76EBB929DE28998568FB6A90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,24 +150,24 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		76EBB929DE28998568FB6A90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4E10A04D9090580E3870369 /* Pods_BadgeHub_Example.framework */,
+				E99B949FDF4C29157B7AAA80 /* Pods_BadgeHub_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		82F335FFE41F0BB45F417374 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6BA978FDD0134429CACE8071 /* Pods-BadgeHub_Example.debug.xcconfig */,
-				B4B146157EB2EAC3AB61F5D9 /* Pods-BadgeHub_Example.release.xcconfig */,
-				2094A816E814F8EE07287E16 /* Pods-BadgeHub_Tests.debug.xcconfig */,
-				989B2D641A9A7D73E7AD6F13 /* Pods-BadgeHub_Tests.release.xcconfig */,
+				D9CF89D9A9AFBBE9CE5926BC /* Pods-BadgeHub_Example.debug.xcconfig */,
+				6948969C9044C28999771997 /* Pods-BadgeHub_Example.release.xcconfig */,
+				233A0B96E97A310B89896481 /* Pods-BadgeHub_Tests.debug.xcconfig */,
+				67B5FCB264016BBA2C45A383 /* Pods-BadgeHub_Tests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		CF993331D6F4AA7B453A07FD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3ACD982BC89AFECA3FDBF522 /* Pods_BadgeHub_Example.framework */,
-				C2E79FE58B30BFE220846F82 /* Pods_BadgeHub_Tests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,11 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BadgeHub_Example" */;
 			buildPhases = (
-				33B6C8BEA3A286E208183234 /* [CP] Check Pods Manifest.lock */,
+				D39A8FD00CEFD64EFD472EE6 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				8E4267DA8198A19676DF6338 /* [CP] Embed Pods Frameworks */,
+				10BF0F071BB8BA4FF7867C1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BadgeHub_Tests" */;
 			buildPhases = (
-				843008B51C6BB3187149C21E /* [CP] Check Pods Manifest.lock */,
+				61156CBDDE119A5DC6EBDD4D /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -272,29 +272,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		33B6C8BEA3A286E208183234 /* [CP] Check Pods Manifest.lock */ = {
+		10BF0F071BB8BA4FF7867C1F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-BadgeHub_Example/Pods-BadgeHub_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BadgeHub/BadgeHub.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BadgeHub_Example-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BadgeHub.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BadgeHub_Example/Pods-BadgeHub_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		843008B51C6BB3187149C21E /* [CP] Check Pods Manifest.lock */ = {
+		61156CBDDE119A5DC6EBDD4D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -316,22 +312,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8E4267DA8198A19676DF6338 /* [CP] Embed Pods Frameworks */ = {
+		D39A8FD00CEFD64EFD472EE6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BadgeHub_Example/Pods-BadgeHub_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BadgeHub/BadgeHub.framework",
+			inputFileListPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BadgeHub.framework",
+				"$(DERIVED_FILE_DIR)/Pods-BadgeHub_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BadgeHub_Example/Pods-BadgeHub_Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -494,7 +494,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BA978FDD0134429CACE8071 /* Pods-BadgeHub_Example.debug.xcconfig */;
+			baseConfigurationReference = D9CF89D9A9AFBBE9CE5926BC /* Pods-BadgeHub_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BadgeHub/Info.plist;
@@ -508,7 +508,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4B146157EB2EAC3AB61F5D9 /* Pods-BadgeHub_Example.release.xcconfig */;
+			baseConfigurationReference = 6948969C9044C28999771997 /* Pods-BadgeHub_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BadgeHub/Info.plist;
@@ -522,7 +522,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2094A816E814F8EE07287E16 /* Pods-BadgeHub_Tests.debug.xcconfig */;
+			baseConfigurationReference = 233A0B96E97A310B89896481 /* Pods-BadgeHub_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -543,7 +543,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 989B2D641A9A7D73E7AD6F13 /* Pods-BadgeHub_Tests.release.xcconfig */;
+			baseConfigurationReference = 67B5FCB264016BBA2C45A383 /* Pods-BadgeHub_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
