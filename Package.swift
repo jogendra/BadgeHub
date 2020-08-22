@@ -42,7 +42,7 @@ let package = Package(
         .target(
             name: "BadgeHub",
             dependencies: [],
-            path: "BadgeHub"
+            path: "BadgeHub/Classes"
         )
     ]
 )
