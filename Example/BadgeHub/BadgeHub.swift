@@ -33,11 +33,11 @@ public class BadgeHub: NSObject {
             checkZero()
         }
     }
+    
     private var redCircle: BadgeView!
     private var initialCenter = CGPoint.zero
     private var baseFrame = CGRect.zero
     private var initialFrame = CGRect.zero
-    private var isIndeterminateMode = false
     
     private struct Constants {
         static let notificHubDefaultDiameter: CGFloat = 30
@@ -83,8 +83,6 @@ public class BadgeHub: NSObject {
         curOrderMagnitude = 0
         
         let frame: CGRect? = view?.frame
-        
-        isIndeterminateMode = false
         
         redCircle = BadgeView()
         redCircle?.isUserInteractionEnabled = false
@@ -176,15 +174,15 @@ public class BadgeHub: NSObject {
             return
         }
         count -= amount
+        checkZero()
     }
     
     public func hideCount() {
+        redCircle.isHidden = true
         countLabel?.isHidden = true
-        isIndeterminateMode = true
     }
     
     public func showCount() {
-        isIndeterminateMode = false
         checkZero()
     }
     
@@ -277,13 +275,13 @@ public class BadgeHub: NSObject {
     }
     
     public func blink() {
-        self.setAlpha(alpha: Float(Constants.blinkAlpha))
+        self.setAlpha(alpha: Constants.blinkAlpha)
         
         UIView.animate(withDuration: TimeInterval(Constants.blinkDuration), animations: {
             self.setAlpha(alpha: 1)
         }) { complete in
             UIView.animate(withDuration: TimeInterval(Constants.blinkDuration), animations: {
-                self.setAlpha(alpha: Float(Constants.blinkAlpha))
+                self.setAlpha(alpha: Constants.blinkAlpha)
             }) { complete in
                 UIView.animate(withDuration: TimeInterval(Constants.blinkDuration), animations: {
                     self.setAlpha(alpha: 1)
@@ -325,11 +323,14 @@ public class BadgeHub: NSObject {
     }
     
     // Set the font of the label
-    public func setCountLabel(_ font: UIFont?) {
+    public func setCountLabelFont(_ font: UIFont?) {
         countLabel?.font = font
     }
     
-    public func countLabelFont() -> UIFont? {
+    
+    /// Get current set label font for count label
+    /// - Returns: current set font
+    public func getCountLabelFont() -> UIFont? {
         return countLabel?.font
     }
     
@@ -341,9 +342,9 @@ public class BadgeHub: NSObject {
         countLabel?.center = center
     }
     
-    public func setAlpha(alpha: Float) {
-        redCircle.alpha = CGFloat(alpha)
-        countLabel?.alpha = CGFloat(alpha)
+    public func setAlpha(alpha: CGFloat) {
+        redCircle.alpha = alpha
+        countLabel?.alpha = alpha
     }
     
     public func checkZero() {
@@ -352,9 +353,7 @@ public class BadgeHub: NSObject {
             countLabel?.isHidden = true
         } else {
             redCircle.isHidden = false
-            if !isIndeterminateMode {
-                countLabel?.isHidden = false
-            }
+            countLabel?.isHidden = false
         }
     }
     
