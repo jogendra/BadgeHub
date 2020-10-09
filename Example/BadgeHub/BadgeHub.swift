@@ -8,21 +8,6 @@
 import UIKit
 import QuartzCore
 
-let notificHubDefaultDiameter: CGFloat = 30
-private let countMagnitudeAdaptationRatio: CGFloat = 0.3
-// Pop values
-private let popStartRatio: CGFloat = 0.85
-private let popOutRatio: CGFloat = 1.05
-private let popInRatio: CGFloat = 0.95
-// Blink values
-private let blinkDuration: CGFloat = 0.1
-private let blinkAlpha: CGFloat = 0.1
-// Bump values
-private let firstBumpDistance: CGFloat = 8.0
-private let bumpTimeSeconds: CGFloat = 0.13
-private let secondBumpDist: CGFloat = 4.0
-private let bumpTimeSeconds2: CGFloat = 0.1
-
 class BadgeView: UIView {
     
     func setBackgroundColor(_ backgroundColor: UIColor?) {
@@ -53,6 +38,23 @@ public class BadgeHub: NSObject {
     private var baseFrame = CGRect.zero
     private var initialFrame = CGRect.zero
     private var isIndeterminateMode = false
+    
+    private struct Constants {
+        static let notificHubDefaultDiameter: CGFloat = 30
+        static let countMagnitudeAdaptationRatio: CGFloat = 0.3
+        // Pop values
+        static let popStartRatio: CGFloat = 0.85
+        static let popOutRatio: CGFloat = 1.05
+        static let popInRatio: CGFloat = 0.95
+        // Blink values
+        static let blinkDuration: CGFloat = 0.1
+        static let blinkAlpha: CGFloat = 0.1
+        // Bump values
+        static let firstBumpDistance: CGFloat = 8.0
+        static let bumpTimeSeconds: CGFloat = 0.13
+        static let secondBumpDist: CGFloat = 4.0
+        static let bumpTimeSeconds2: CGFloat = 0.1
+    }
     
     // MARK: - SETUP
     public init(view: UIView) {
@@ -95,7 +97,10 @@ public class BadgeHub: NSObject {
         countLabel?.textColor = UIColor.white
         countLabel?.backgroundColor = UIColor.clear
         
-        setCircleAtFrame(CGRect(x: (frame?.size.width ?? 0.0) - ((notificHubDefaultDiameter) * 2 / 3), y: (-notificHubDefaultDiameter) / 3, width: CGFloat(notificHubDefaultDiameter), height: CGFloat(notificHubDefaultDiameter)))
+        setCircleAtFrame(CGRect(x: (frame?.size.width ?? 0.0) - ((Constants.notificHubDefaultDiameter) * 2 / 3),
+                                y: (-Constants.notificHubDefaultDiameter) / 3,
+                                width: CGFloat(Constants.notificHubDefaultDiameter),
+                                height: CGFloat(Constants.notificHubDefaultDiameter)))
         
         view?.addSubview(redCircle)
         view?.addSubview(countLabel!)
@@ -108,12 +113,13 @@ public class BadgeHub: NSObject {
     // Set the frame of the notification circle relative to the button
     public func setCircleAtFrame(_ frame: CGRect) {
         redCircle.frame = frame
-        initialCenter = CGPoint(x: frame.origin.x + frame.size.width / 2, y: frame.origin.y + frame.size.height / 2)
+        initialCenter = CGPoint(x: frame.origin.x + frame.size.width / 2,
+                                y: frame.origin.y + frame.size.height / 2)
         baseFrame = frame
         initialFrame = frame
         countLabel?.frame = redCircle.frame
         redCircle.layer.cornerRadius = frame.size.height / 2
-        countLabel?.font = UIFont(name: "HelveticaNeue", size: frame.size.width / 2)
+        countLabel?.font = UIFont.systemFont(ofSize: frame.size.width / 2)
     }
     
     // Change the color of the notification circle
@@ -186,14 +192,14 @@ public class BadgeHub: NSObject {
     public func pop() {
         let height = baseFrame.size.height
         let width = baseFrame.size.width
-        let popStartHeight: Float = Float(height * popStartRatio)
-        let popStartWidth: Float = Float(width * popStartRatio)
+        let popStartHeight: Float = Float(height * Constants.popStartRatio)
+        let popStartWidth: Float = Float(width * Constants.popStartRatio)
         let timeStart: Float = 0.05
-        let popOutHeight: Float = Float(height * popOutRatio)
-        let popOutWidth: Float = Float(width * popOutRatio)
+        let popOutHeight: Float = Float(height * Constants.popOutRatio)
+        let popOutWidth: Float = Float(width * Constants.popOutRatio)
         let timeOut: Float = 0.2
-        let popInHeight: Float = Float(height * popInRatio)
-        let popInWidth: Float = Float(width * popInRatio)
+        let popInHeight: Float = Float(height * Constants.popInRatio)
+        let popInWidth: Float = Float(width * Constants.popInRatio)
         let timeIn: Float = 0.05
         let popEndHeight: Float = Float(height)
         let popEndWidth: Float = Float(width)
@@ -271,15 +277,15 @@ public class BadgeHub: NSObject {
     }
     
     public func blink() {
-        self.setAlpha(alpha: Float(blinkAlpha))
+        self.setAlpha(alpha: Float(Constants.blinkAlpha))
         
-        UIView.animate(withDuration: TimeInterval(blinkDuration), animations: {
+        UIView.animate(withDuration: TimeInterval(Constants.blinkDuration), animations: {
             self.setAlpha(alpha: 1)
         }) { complete in
-            UIView.animate(withDuration: TimeInterval(blinkDuration), animations: {
-                self.setAlpha(alpha: Float(blinkAlpha))
+            UIView.animate(withDuration: TimeInterval(Constants.blinkDuration), animations: {
+                self.setAlpha(alpha: Float(Constants.blinkAlpha))
             }) { complete in
-                UIView.animate(withDuration: TimeInterval(blinkDuration), animations: {
+                UIView.animate(withDuration: TimeInterval(Constants.blinkDuration), animations: {
                     self.setAlpha(alpha: 1)
                 })
             }
@@ -293,16 +299,16 @@ public class BadgeHub: NSObject {
         }
         
         bumpCenterY(yVal: 0)
-        UIView.animate(withDuration: TimeInterval(bumpTimeSeconds), animations: {
-            self.bumpCenterY(yVal: Float(firstBumpDistance))
+        UIView.animate(withDuration: TimeInterval(Constants.bumpTimeSeconds), animations: {
+            self.bumpCenterY(yVal: Float(Constants.firstBumpDistance))
         }) { complete in
-            UIView.animate(withDuration: TimeInterval(bumpTimeSeconds), animations: {
+            UIView.animate(withDuration: TimeInterval(Constants.bumpTimeSeconds), animations: {
                 self.bumpCenterY(yVal: 0)
             }) { complete in
-                UIView.animate(withDuration: TimeInterval(bumpTimeSeconds2), animations: {
-                    self.bumpCenterY(yVal: Float(secondBumpDist))
+                UIView.animate(withDuration: TimeInterval(Constants.bumpTimeSeconds2), animations: {
+                    self.bumpCenterY(yVal: Float(Constants.secondBumpDist))
                 }) { complete in
-                    UIView.animate(withDuration: TimeInterval(bumpTimeSeconds2), animations: {
+                    UIView.animate(withDuration: TimeInterval(Constants.bumpTimeSeconds2), animations: {
                         self.bumpCenterY(yVal: 0)
                     })
                 }
@@ -312,14 +318,8 @@ public class BadgeHub: NSObject {
     
     // Set the count yourself
     public func setCount(_ newCount: Int) {
-        count = newCount
-        
-        var labelText = "\(NSNumber(value: count))"
-        
-        if count > maxCount {
-            labelText = "\(NSNumber(value: maxCount))+"
-        }
-        
+        self.count = newCount
+        let labelText = count > maxCount ? "\(maxCount)+" : "\(count)"
         countLabel?.text = labelText
         checkZero()
     }
