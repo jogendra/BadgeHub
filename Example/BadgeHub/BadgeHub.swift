@@ -179,7 +179,6 @@ public class BadgeHub: NSObject {
     
     public func hideCount() {
         redCircle.isHidden = true
-        countLabel?.isHidden = true
     }
     
     public func showCount() {

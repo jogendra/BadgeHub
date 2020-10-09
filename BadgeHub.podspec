@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BadgeHub'
-  s.version          = '0.1.1'
+  s.version          = '1.0.0.pre'
   s.summary          = 'A way to quickly add a notification bedge icon to any view.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Make any UIView a full fledged animated notification center. It is a way to quickly add a notification badge icon to a UIView. It make very easy to add badge to any view.
+Make any view a full fledged animated notification center. It is a way to quickly add a notification badge icon to a UIView. It make very easy to add badge to any view.
                        DESC
 
   s.homepage         = 'https://github.com/jogendra/BadgeHub'
