@@ -2,7 +2,7 @@
 //  BadgeHub.swift
 //
 //  Created by Jogendra on 31/05/19.
-//  Copyright © 2019 CocoaPods. All rights reserved.
+//  Copyright © 2019 Jogendra. All rights reserved.
 //
 
 import UIKit
@@ -62,13 +62,19 @@ public class BadgeHub: NSObject {
         setView(view, andCount: 0)
     }
     
-    //    convenience init(barButtonItem: UIBarButtonItem?) {
-    //        if let value = barButtonItem?.value(forKey: "view") as? UIView {
-    //            self.init(view: value)
-    //            scaleCircleSize(by: 0.7)
-    //            moveCircleBy(x: -5.0, y: 0)
-    //        }
-    //    }
+    public convenience init?(barButtonItem: UIBarButtonItem) {
+        if let value = barButtonItem.value(forKey: "view") as? UIView {
+            self.init(view: value)
+            scaleCircleSize(by: 0.7)
+            moveCircleBy(x: -5.0, y: 0)
+        } else if let value = barButtonItem.customView {
+            self.init(view: value)
+            scaleCircleSize(by: 0.7)
+            moveCircleBy(x: -5.0, y: 0)
+        } else {
+            return nil
+        }
+    }
     
     // Adjustment methods
     public func setView(_ view: UIView?, andCount startCount: Int) {
