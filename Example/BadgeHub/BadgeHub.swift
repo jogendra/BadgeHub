@@ -25,13 +25,8 @@ private let bumpTimeSeconds2: CGFloat = 0.1
 
 class BadgeView: UIView {
     
-    var isUserChangingBackgroundColor = false
-    
     func setBackgroundColor(_ backgroundColor: UIColor?) {
-        if isUserChangingBackgroundColor {
-            super.backgroundColor = backgroundColor
-            isUserChangingBackgroundColor = false
-        }
+        super.backgroundColor = backgroundColor
     }
 }
 
@@ -40,6 +35,7 @@ public class BadgeHub: NSObject {
         didSet {
             countLabel?.text = "\(count)"
             checkZero()
+            resizeToFitDigits()
         }
     }
     var maxCount: Int = 0
@@ -84,7 +80,6 @@ public class BadgeHub: NSObject {
         
         redCircle = BadgeView()
         redCircle?.isUserInteractionEnabled = false
-        redCircle.isUserChangingBackgroundColor = true
         redCircle.backgroundColor = UIColor.red
         
         countLabel = UILabel(frame: redCircle.frame)
@@ -113,12 +108,10 @@ public class BadgeHub: NSObject {
         countLabel?.frame = redCircle.frame
         redCircle.layer.cornerRadius = frame.size.height / 2
         countLabel?.font = UIFont(name: "HelveticaNeue", size: frame.size.width / 2)
-        //        expandToFitLargerDigits()
     }
     
     // Change the color of the notification circle
     public func setCircleColor(_ circleColor: UIColor?, label labelColor: UIColor?) {
-        redCircle.isUserChangingBackgroundColor = true
         redCircle.backgroundColor = circleColor
         if let labelColor = labelColor {
             countLabel?.textColor = labelColor
@@ -323,7 +316,6 @@ public class BadgeHub: NSObject {
         
         countLabel?.text = labelText
         checkZero()
-        //        expandToFitLargerDigits()
     }
     
     // Set the font of the label
@@ -360,17 +352,19 @@ public class BadgeHub: NSObject {
         }
     }
     
-    //    func expandToFitLargerDigits() {
-    //        var orderOfMagnitude: Int = Int(log10(Double(count)))
-    //        orderOfMagnitude = (orderOfMagnitude >= 2) ? orderOfMagnitude : 1
-    //        var frame: CGRect = initialFrame
-    //        frame.size.width = CGFloat(initialFrame.size.width * (1 + kCountMagnitudeAdaptationRatio * CGFloat(orderOfMagnitude - 1)))
-    //        frame.origin.x = initialFrame.origin.x - (frame.size.width - initialFrame.size.width) / 2
-    //
-    //        redCircle.frame = frame
-    //        initialCenter = CGPoint(x: frame.origin.x + frame.size.width / 2, y: frame.origin.y + frame.size.height / 2)
-    //        baseFrame = frame
-    //        countLabel?.frame = redCircle.frame
-    //        curOrderMagnitude = orderOfMagnitude
-    //    }
+    func resizeToFitDigits() {
+        guard count > 0 else { return }
+        var orderOfMagnitude: Int = Int(log10(Double(count)))
+        orderOfMagnitude = (orderOfMagnitude >= 2) ? orderOfMagnitude : 1
+        var frame: CGRect = initialFrame
+        frame.size.width = CGFloat(initialFrame.size.width * (1 + 0.3 * CGFloat(orderOfMagnitude - 1)))
+        frame.origin.x = initialFrame.origin.x - (frame.size.width - initialFrame.size.width) / 2
+        
+        redCircle.frame = frame
+        initialCenter = CGPoint(x: frame.origin.x + frame.size.width / 2,
+                                y: frame.origin.y + frame.size.height / 2)
+        baseFrame = frame
+        countLabel?.frame = redCircle.frame
+        curOrderMagnitude = orderOfMagnitude
+    }
 }
