@@ -2,50 +2,74 @@
 //  ViewController.swift
 //  BadgeHub
 //
-//  Created by jogendra on 05/31/2019.
-//  Copyright (c) 2019 jogendra. All rights reserved.
+//  Created by Jogendra on 05/31/2019.
+//  Copyright (c) 2019 Jogendra. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     private var hub: BadgeHub?
-
+    
+    private lazy var imageView: UIImageView = {
+        let iv = UIImageView()
+        iv.frame = CGRect(x: view.frame.size.width / 2 - 48,
+                          y: 80, width: 96, height: 96)
+        iv.image = UIImage(named: "github_color")
+        return iv
+    }()
+    
+    private lazy var decrementButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.frame = CGRect(x: 16, y: 200, width: 130, height: 44)
+        button.setTitle("Decrement (-1)", for: .normal)
+        button.backgroundColor = .white
+        button.layer.cornerRadius = 8
+        button.setTitleColor(.black, for: .normal)
+        return button
+    }()
+    
+    private lazy var incrementButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.frame = CGRect(x: UIScreen.main.bounds.width - 16 - 130,
+                              y: 200, width: 130, height: 44)
+        button.setTitle("Increment (+1)", for: .normal)
+        button.backgroundColor = .white
+        button.layer.cornerRadius = 8
+        button.setTitleColor(.black, for: .normal)
+        return button
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        setupButton()
+        setupButtons()
         setupImageView()
     }
-
-    func setupButton() {
-        let color = UIColor(red: 255/255, green: 47/255, blue: 146/255, alpha: 1)
-
-        let button = UIButton(frame: CGRect(x: view.frame.size.width / 2 - 75, y: 200, width: 150, height: 44))
-        button.setTitleColor(UIColor.white, for: .normal)
-        button.setTitle("Increment", for: .normal)
-        button.backgroundColor = color
-        button.layer.cornerRadius = 5
-        button.addTarget(self, action: #selector(self.testIncrement), for: .touchUpInside)
-
-        view.addSubview(button)
+    
+    private func setupButtons() {
+        view.addSubview(incrementButton)
+        view.addSubview(decrementButton)
+        incrementButton.addTarget(self,
+                                  action: #selector(self.testIncrement),
+                                  for: .touchUpInside)
+        decrementButton.addTarget(self,
+                                  action: #selector(self.testDecrement),
+                                  for: .touchUpInside)
     }
-
-    func setupImageView() {
-        let imageView = UIImageView(image: UIImage(named: "github_color"))
-        imageView.frame = CGRect(x: view.frame.size.width / 2 - 48, y: 80, width: 96, height: 96)
-
+    
+    private func setupImageView() {
         hub = BadgeHub(view: imageView)
         hub?.moveCircleBy(x: -15, y: 15)
-
         view.addSubview(imageView)
     }
-
-    @objc func testIncrement() {
+    
+    @objc private func testIncrement() {
         hub?.increment()
         hub?.pop()
     }
-
+    
+    @objc private func testDecrement() {
+        hub?.decrement(by: 2)
+    }
 }
-
