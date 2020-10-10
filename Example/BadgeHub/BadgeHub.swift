@@ -8,14 +8,18 @@
 import UIKit
 import QuartzCore
 
-class BadgeView: UIView {
+fileprivate class BadgeView: UIView {
     
     func setBackgroundColor(_ backgroundColor: UIColor?) {
         super.backgroundColor = backgroundColor
     }
 }
 
+/// A way to quickly add a notification badge icon to any view.
+/// Make any view of a full-fledged animated notification center.
 public class BadgeHub: NSObject {
+    
+    /// Value of current count on badge.
     var count: Int = 0 {
         didSet {
             countLabel?.text = "\(count)"
@@ -23,7 +27,9 @@ public class BadgeHub: NSObject {
             resizeToFitDigits()
         }
     }
+    /// Maximum count can be set on badge.
     var maxCount: Int = 0
+    
     var hubView: UIView?
     
     private var curOrderMagnitude: Int = 0
@@ -56,7 +62,10 @@ public class BadgeHub: NSObject {
         static let bumpTimeSeconds2: CGFloat = 0.1
     }
     
-    // MARK: - SETUP
+    
+    /// Set badge to view. It set default count to `0` and `maxCount` to 100000.
+    /// To set count other than `0`, use `setView` method.
+    /// - Parameter view: The view on which badge to be set.
     public init(view: UIView) {
         super.init()
         
@@ -64,6 +73,8 @@ public class BadgeHub: NSObject {
         setView(view, andCount: 0)
     }
     
+    /// Initializer for setting badge to bar button items
+    /// - Parameter barButtonItem: Bar button item on which badge to be add.
     public convenience init?(barButtonItem: UIBarButtonItem) {
         if let value = barButtonItem.value(forKey: "view") as? UIView {
             self.init(view: value)
@@ -78,7 +89,10 @@ public class BadgeHub: NSObject {
         }
     }
     
-    // Adjustment methods
+    /// Set a view to badgehub.
+    /// - Parameters:
+    ///   - view: The view on which badge to be added.
+    ///   - startCount: Initial count to be shown on view.
     public func setView(_ view: UIView?, andCount startCount: Int) {
         curOrderMagnitude = 0
         
@@ -108,7 +122,7 @@ public class BadgeHub: NSObject {
         checkZero()
     }
     
-    // Set the frame of the notification circle relative to the button
+    /// Set the frame of the notification circle relative to the view.
     public func setCircleAtFrame(_ frame: CGRect) {
         redCircle.frame = frame
         initialCenter = CGPoint(x: frame.origin.x + frame.size.width / 2,
@@ -120,7 +134,10 @@ public class BadgeHub: NSObject {
         countLabel?.font = UIFont.systemFont(ofSize: frame.size.width / 2)
     }
     
-    // Change the color of the notification circle
+    /// Change the color of the notification circle.
+    /// - Parameters:
+    ///   - circleColor: Color of badge dot (background).
+    ///   - labelColor: Color of count label.
     public func setCircleColor(_ circleColor: UIColor?, label labelColor: UIColor?) {
         redCircle.backgroundColor = circleColor
         if let labelColor = labelColor {
@@ -128,11 +145,19 @@ public class BadgeHub: NSObject {
         }
     }
     
+    /// Change the border color and border width of the circle.
+    /// - Parameters:
+    ///   - color: Border color for circle.
+    ///   - width: Border width.
     public func setCircleBorderColor(_ color: UIColor?, borderWidth width: CGFloat) {
         redCircle.layer.borderColor = color?.cgColor
         redCircle.layer.borderWidth = width
     }
     
+    /// Move the circle (left/right or up/down).
+    /// - Parameters:
+    ///   - x: Move circle to left/rigth.
+    ///   - y: Move circle to up/down.
     public func moveCircleBy(x: CGFloat, y: CGFloat) {
         var frame: CGRect = redCircle.frame
         frame.origin.x += x
@@ -140,7 +165,8 @@ public class BadgeHub: NSObject {
         self.setCircleAtFrame(frame)
     }
     
-    // Changes the size of the circle. setting a scale of 1 has no effect
+    /// Changes the size of the circle.
+    /// - Parameter scale: Scale factor. Setting a scale of 1 has no effect.
     public func scaleCircleSize(by scale: CGFloat) {
         let fr: CGRect = initialFrame
         let width: CGFloat = fr.size.width * scale
@@ -148,26 +174,31 @@ public class BadgeHub: NSObject {
         let wdiff: CGFloat = (fr.size.width - width) / 2
         let hdiff: CGFloat = (fr.size.height - height) / 2
         
-        let frame = CGRect(x: fr.origin.x + wdiff, y: fr.origin.y + hdiff, width: width, height: height)
+        let frame = CGRect(x: fr.origin.x + wdiff,
+                           y: fr.origin.y + hdiff,
+                           width: width, height: height)
         self.setCircleAtFrame(frame)
     }
     
-    // Increases count by 1
+    /// Increases count by 1
     public func increment() {
         increment(by: 1)
     }
     
-    // Increases count by amount
+    /// Increases count by amount.
+    /// - Parameter amount: Increment count.
     public func increment(by amount: Int) {
         count += amount
     }
     
-    // Decreases count
+    /// Decreases count by 1
     public func decrement() {
         decrement(by: 1)
     }
     
-    // Decreases count by amount
+    /// Decreases count by amount.
+    /// If the count after decrement become `<= 0`, it hide the badge.
+    /// - Parameter amount: Decrement count.
     public func decrement(by amount: Int) {
         if amount >= count {
             count = 0
@@ -177,15 +208,46 @@ public class BadgeHub: NSObject {
         checkZero()
     }
     
+    /// Hide badge from your view.
+    public func hide() {
+        redCircle.isHidden = true
+        countLabel?.isHidden = true
+    }
+    
+    /// Show hidden badge on your view.
+    public func show() {
+        redCircle.isHidden = false
+        countLabel?.isHidden = false
+    }
+    
+    /// Hide the count (Blank Bedge).
+    /// Remember this only hide count,
+    /// and not the red dot.
     public func hideCount() {
         redCircle.isHidden = true
     }
     
+    /// Show count again on the badge.
+    /// It hides the badge if current count is `<= 0`.
     public func showCount() {
         checkZero()
     }
     
-    // Animations
+    /// Get value of current count on badge.
+    /// - Returns: Current count.
+    public func getCurrentCount() -> Int {
+        return self.count
+    }
+    
+    /// Set max count which can be displayed.
+    /// This method can be used to restrict
+    /// the maximum count can be set on the badge.
+    /// - Parameter count: Count value.
+    public func setMaxCount(to count: Int) {
+        self.maxCount = count
+    }
+    
+    /// Apply pop animation to the badge.
     public func pop() {
         let height = baseFrame.size.height
         let width = baseFrame.size.width
@@ -273,6 +335,8 @@ public class BadgeHub: NSObject {
         }
     }
     
+    
+    /// Apply `Blink` animation to the badge.
     public func blink() {
         self.setAlpha(alpha: Constants.blinkAlpha)
         
@@ -289,21 +353,21 @@ public class BadgeHub: NSObject {
         }
     }
     
-    // Animation that jumps similar to OSX dock icons
+    /// Animation that jumps similar to macOS dock icons.
     public func bump() {
         if !initialCenter.equalTo(redCircle.center) {
-            // canel previous animation
+            // cancel previous animation
         }
         
         bumpCenterY(yVal: 0)
         UIView.animate(withDuration: TimeInterval(Constants.bumpTimeSeconds), animations: {
-            self.bumpCenterY(yVal: Float(Constants.firstBumpDistance))
+            self.bumpCenterY(yVal: Constants.firstBumpDistance)
         }) { complete in
             UIView.animate(withDuration: TimeInterval(Constants.bumpTimeSeconds), animations: {
                 self.bumpCenterY(yVal: 0)
             }) { complete in
                 UIView.animate(withDuration: TimeInterval(Constants.bumpTimeSeconds2), animations: {
-                    self.bumpCenterY(yVal: Float(Constants.secondBumpDist))
+                    self.bumpCenterY(yVal: Constants.secondBumpDist)
                 }) { complete in
                     UIView.animate(withDuration: TimeInterval(Constants.bumpTimeSeconds2), animations: {
                         self.bumpCenterY(yVal: 0)
@@ -313,7 +377,8 @@ public class BadgeHub: NSObject {
         }
     }
     
-    // Set the count yourself
+    /// Set the count yourself.
+    /// - Parameter newCount: New count to be set to badge.
     public func setCount(_ newCount: Int) {
         self.count = newCount
         let labelText = count > maxCount ? "\(maxCount)+" : "\(count)"
@@ -321,31 +386,36 @@ public class BadgeHub: NSObject {
         checkZero()
     }
     
-    // Set the font of the label
+    /// Set the font of the label.
     public func setCountLabelFont(_ font: UIFont?) {
         countLabel?.font = font
     }
     
-    
-    /// Get current set label font for count label
-    /// - Returns: current set font
+    /// Get current set label font for count label.
+    /// - Returns: current set font.
     public func getCountLabelFont() -> UIFont? {
         return countLabel?.font
     }
     
-    
-    public func bumpCenterY(yVal: Float) {
+    /// Bump badge up or down.
+    /// - Parameter yVal: `Y` coordinate for bumps.
+    public func bumpCenterY(yVal: CGFloat) {
         var center: CGPoint = redCircle.center
-        center.y = initialCenter.y - CGFloat(yVal)
+        center.y = initialCenter.y - yVal
         redCircle.center = center
         countLabel?.center = center
     }
     
+    /// Set alpha to badge.
+    /// - Parameter alpha: Alpha value for red circle and count.
     public func setAlpha(alpha: CGFloat) {
         redCircle.alpha = alpha
         countLabel?.alpha = alpha
     }
     
+    /// Method to hide badge in case of current `count <= 0` and
+    /// show badge in case of current `cout > 0`.
+    /// Use this method explicitaly when your badge is not hiding/showing as expected.
     public func checkZero() {
         if count <= 0 {
             redCircle.isHidden = true
@@ -356,6 +426,8 @@ public class BadgeHub: NSObject {
         }
     }
     
+    /// Resize the badge to fit the current digits.
+    /// This method is called everytime count value is changed.
     func resizeToFitDigits() {
         guard count > 0 else { return }
         var orderOfMagnitude: Int = Int(log10(Double(count)))
