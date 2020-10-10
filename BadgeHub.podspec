@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BadgeHub'
-  s.version          = '1.0.0.pre'
+  s.version          = '1.0.0'
   s.summary          = 'A way to quickly add a notification bedge icon to any view.'
 
 # This description is used to generate tags and improve search results.
