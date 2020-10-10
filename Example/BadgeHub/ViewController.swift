@@ -70,6 +70,6 @@ class ViewController: UIViewController {
     }
     
     @objc private func testDecrement() {
-        hub?.count = 0
+        hub?.decrement()
     }
 }
