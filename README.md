@@ -8,7 +8,7 @@ A way to quickly add a notification badge icon to any view.
 [![Version](https://img.shields.io/cocoapods/v/BadgeHub.svg?style=flat)](https://cocoapods.org/pods/BadgeHub)
 [![License](https://img.shields.io/cocoapods/l/BadgeHub.svg?style=flat)](https://cocoapods.org/pods/BadgeHub)
 [![Platform](https://img.shields.io/cocoapods/p/BadgeHub.svg?style=flat)](https://cocoapods.org/pods/BadgeHub)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5TZAT3TL6XTD4&source=url)
+[![Buy me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20Coffee-Donate-orange)](https://www.buymeacoffee.com/jogendra)
 
 ![Blink](https://imgur.com/AEgi5tW.gif) ![Bump](https://i.imgur.com/238tikf.gif) ![Pop](https://i.imgur.com/aQ0sOtZ.gif) ![Custom](https://i.imgur.com/PhlDWXW.gif) ![setCircle](https://i.imgur.com/8CtI0nf.gif) ![showCount](https://i.imgur.com/VHdp2vO.gif) ![mix](https://i.imgur.com/4DohGxr.gif) ![hideCount](https://i.imgur.com/E3hOrX5.gif)
 
