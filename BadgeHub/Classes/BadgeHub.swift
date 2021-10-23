@@ -224,7 +224,7 @@ public class BadgeHub: NSObject {
     /// Remember this only hide count,
     /// and not the red dot.
     public func hideCount() {
-        redCircle.isHidden = true
+        countLabel?.isHidden = true
     }
     
     /// Show count again on the badge.
