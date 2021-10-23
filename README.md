@@ -4,11 +4,9 @@ A way to quickly add a notification badge icon to any view.
 
 <img src="https://user-images.githubusercontent.com/20956124/52379966-080a5f00-2a92-11e9-8c85-9c34fabd4641.png">
 
-[![CI Status](https://img.shields.io/travis/jogendra/BadgeHub.svg?style=flat)](https://travis-ci.org/jogendra/BadgeHub)
 [![Version](https://img.shields.io/cocoapods/v/BadgeHub.svg?style=flat)](https://cocoapods.org/pods/BadgeHub)
 [![License](https://img.shields.io/cocoapods/l/BadgeHub.svg?style=flat)](https://cocoapods.org/pods/BadgeHub)
 [![Platform](https://img.shields.io/cocoapods/p/BadgeHub.svg?style=flat)](https://cocoapods.org/pods/BadgeHub)
-[![Buy me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20Coffee-Donate-orange)](https://www.buymeacoffee.com/jogendra)
 
 ![Blink](https://imgur.com/AEgi5tW.gif) ![Bump](https://i.imgur.com/238tikf.gif) ![Pop](https://i.imgur.com/aQ0sOtZ.gif) ![Custom](https://i.imgur.com/PhlDWXW.gif) ![setCircle](https://i.imgur.com/8CtI0nf.gif) ![showCount](https://i.imgur.com/VHdp2vO.gif) ![mix](https://i.imgur.com/4DohGxr.gif) ![hideCount](https://i.imgur.com/E3hOrX5.gif)
 
@@ -265,11 +263,6 @@ Jogendra Kumar
 </tr> 
 </table>
 
-## BUY ME A COFFEE?
-
-If you loved my work, Buy me a Coffee here:
-
-<a href="https://www.buymeacoffee.com/jogendra" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## License
 
