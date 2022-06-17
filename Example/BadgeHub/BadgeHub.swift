@@ -189,6 +189,7 @@ public class BadgeHub: NSObject {
     /// - Parameter amount: Increment count.
     public func increment(by amount: Int) {
         count += amount
+        showPlusIfNeeded()
     }
     
     /// Decreases count by 1
@@ -205,6 +206,7 @@ public class BadgeHub: NSObject {
             return
         }
         count -= amount
+        showPlusIfNeeded()
         checkZero()
     }
     
@@ -381,8 +383,7 @@ public class BadgeHub: NSObject {
     /// - Parameter newCount: New count to be set to badge.
     public func setCount(_ newCount: Int) {
         self.count = newCount
-        let labelText = count > maxCount ? "\(maxCount)+" : "\(count)"
-        countLabel?.text = labelText
+        showPlusIfNeeded()
         checkZero()
     }
     
@@ -442,5 +443,12 @@ public class BadgeHub: NSObject {
         baseFrame = frame
         countLabel?.frame = redCircle.frame
         curOrderMagnitude = orderOfMagnitude
+    }
+    
+    /// Limits `count` by `maxCount`.
+    /// If `count` is greater than `maxCount`, the latter will be displayed with a plus sign.
+    private func showPlusIfNeeded() {
+        let labelText = count > maxCount ? "\(maxCount)+" : "\(count)"
+        countLabel?.text = labelText
     }
 }
